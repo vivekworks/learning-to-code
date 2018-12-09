@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bean Machine</title>
+</head>
+
+<body>
+	<form action="" method="POST">
+		<p>Choose your beans:
+			<select name="CoffeeBeans">
+				<option value="houseblend">House Blend</option>
+				<option value="shade">Shade Grown Bolivia Supremo</option>
+				<option value="organic">Organic Guatemala</option>
+				<option value="kenya">Kenya</option>
+			</select>
+		</p>
+		<p>Type:
+			<input type="radio" value="Whole Bean" name="coffeebeantype">Whole Bean</input>
+			<input type="radio" value="Ground" name="coffeebeantype">Ground </input>
+		</p>
+		<p>Number of bags:
+			<input type="number" min="1" value="5" name="bagno" max="100">
+		</p>
+		<p>Must arrive by date:
+			<input type="date">
+		</p>
+		<p>Extras:
+			<input type="checkbox" name="extras" value="giftwrap">Gift Wrap</input>
+			<input type="checkbox" name="extras"  value="catalog">Include catalog with order</input>
+		</p>
+		<p>Ship to:<br>
+			Name:<input type="text" value="" name="name"><br>
+			Address:<input type="text" value="" name="address"><br>
+			City:<input type="text" value="" name="city"><br>
+			State:<input type="text" value="" name="state"><br>
+			Zip:<input type="text" value="" name="zip"><br>
+			Phone:<input type="tel" value="" name="phone"><br>
+			Customer Comments:<br>
+			<textarea rows="10" cols="50">
+				
+			</textarea>
+		</p>
+		<input type="submit">
+	</form>
+</body>
+</html>

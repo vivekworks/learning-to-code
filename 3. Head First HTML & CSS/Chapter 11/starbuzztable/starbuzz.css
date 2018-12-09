@@ -1,0 +1,88 @@
+body{
+	background-image: url(images/background2.gif);
+	font-size: small;
+}
+/*
+#allcontent{
+	width:800px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #675c47;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+#header{
+	background-color : #675C47;
+	margin:0px 10px;
+}
+
+#main{
+	display: table-cell;
+	background-image: url(images/background.gif);
+	background-repeat: repeat;
+	padding: 10px;
+	vertical-align: top;
+}
+#main h3, #drinks h3{
+	color:#935F55;
+}
+#sidebar{
+	display: table-cell;
+	background-image: url(images/background.gif);
+	padding: 10px;
+	vertical-align: top;
+
+}
+.sidebarshop {
+	text-align: center;
+	line-height: 1.5em;
+}
+#footer{
+	margin:0px 10px  10px  10px ;
+	background-color : #675C47;
+	color:#F0E6D4;
+	text-align: center;
+	padding: 15px;
+	font-size: 80%;
+}
+a:link{
+	color:#b66666;
+	text-decoration: none;
+	border-bottom: thin dotted #b66666;
+}
+a:visited{
+	color:#675c47;
+	text-decoration: none;
+	border-bottom: thin dotted #675c47;
+}
+div#table{
+	display: table;
+	border-spacing: 10px;
+}
+div#row{
+	display: table-row;
+}
+#drinks{
+	display: table-cell;
+	background-color:#efe5d0;
+	width:20%;
+	padding:15px;
+	vertical-align: top;
+}
+#headerSlogan{
+	float: right;
+}
+#award{
+	position: absolute;
+	left:700px;
+	top:50px;
+}
+#coupon{
+	position: fixed;
+	top:250px;
+	left: -50px;
+}
+#coupon a{
+	border: none;
+}

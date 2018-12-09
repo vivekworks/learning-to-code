@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>The Starbuzz Bean Machine</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="starbuzz.css">
+</head>
+
+<body>
+	<h3 id="formh3">The Starbuzz Bean Machine</h3>
+	<h3 id="formh3">Fill out the form below and click "order now" to order</h3>
+	<form action="http://starbuzzcoffee.com/processorder.php" method="GET" class="formtable">
+		
+		<div class="formrow">
+		<p class="formcell">
+				Choose your beans:
+			</p>
+			<p class="formcell">
+			<select  name="beans" multiple>
+				<option value="house">House Blend</option>
+				<option value="bolivia">Shade Grown Bolivian Supremo</option>
+				<option value="guatemala">Organic Guatemala</option>
+				<option value="kenya">Kenya</option>
+			</select>
+		</p>
+		</div>
+		<div class="formrow">
+			<!--p class="formcell">
+			Type:<br>
+		</p-->
+		<!--p class="formcell"-->
+			<fieldset>
+				<legend>Coffe Bean</legend>
+			<input type="radio" name="beantype" id="whole_beantype" value="whole">
+			<label for="whole_beantype">Whole Bean</label><br>
+			<input type="radio" id="ground_beantype" checked name="beantype" value="ground">
+			<label for="ground_beantype">Ground</label>
+			
+			</fieldset>
+		
+		<!--/p-->
+	</div>
+		<div  class="formrow">
+			<p class="formcell">
+			Extras:
+		</p>
+		<p class="formcell">
+			<input type="checkbox" value="extras[]" value="giftwrap">Gift Wrap</input>
+			<input type="checkbox" value="extras[]" value="catalog" checked>Include catalog with order</input>
+		</p>
+</div>
+		<div  class="formrow">
+			<p class="formcell">
+			Number of bags:
+		</p>
+		<p class="formcell">
+			<input type="number" value="2" name="bags" min="1" max="10">
+		
+		</p>
+	</div>
+		<div  class="formrow">
+			<p class="formcell">
+			Must arrive by date:
+		</p>
+		<p class="formcell">
+			<input type="date" name="date">
+		</p>
+	</div>
+		<div  class="formrow">
+			<p class="formcell">
+			Ship to		</p>
+		</div>
+		<div  class="formrow">
+			<p class="formcell">
+			Name:
+		</p>
+		<p class="formcell">
+			<input type="text" placeholder="Your Name" required value="" name="name">
+		</p>
+		</div>
+		<div  class="formrow">
+			<p class="formcell">
+			Address:
+		</p>
+			<p class="formcell">
+				<input type="text" value="" name="address">
+			</p>
+			</div>
+			<div  class="formrow">
+				<p class="formcell">
+			City:
+		</p>
+		
+		<p class="formcell">
+			<input type="text" value="" name="city">
+		</p>
+		</div>
+		<div  class="formrow">
+			<p class="formcell">
+			State:
+		</p>
+		
+		<p class="formcell">
+			<input type="password" value="" name="state">
+		</p>
+		</div>
+		<div  class="formrow">
+			<p class="formcell">
+			Zip:
+		</p>
+		<p class="formcell">
+			<input type="tel" value="" name="zip">
+		</p>
+		</div>
+		<div  class="formrow">
+			<p class="formcell">
+			Phone:
+		</p>
+		
+		<p class="formcell">
+			<input type="tel" value="" name="phone">
+		</p>
+		</div>
+		
+		<div  class="formrow">
+			<p class="formcell">
+				Customer Comments:
+			</p>
+			<p class="formcell">
+			<textarea rows="5" cols="40" value="" name="comments">
+				
+			</textarea>
+		
+		</p>
+	</div>
+		<div  class="formrow">
+			<p class="formcell">
+			</p>
+			<p class="formcell">
+			<input type="submit" name="ordernow" value="Order Now">
+		</p>
+		</div>
+		
+	</form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body{
+	font:small/1.5em Verdana,Helvetica,Arial,sans-serif;
+}
+h1,h2{
+	color:#007e7e;
+}
+h1{
+	font-size:150%;
+}
+h2{
+	font-size:130%;
+}
+#guarantee{
+	border-radius: .75em;
+	border:#fffff thin dashed;
+	padding:25px 25px 25px 80px;
+	margin:30px 250px 30px 30px;
+	font:italic small/1.9em Georgia,"Times New Roman",Times,serif;
+	color:#444444;
+	/*background-position: top left;*/
+	background : url(images/background.gif) no-repeat #a7cece;
+}
+#elixirs{
+	border:solid #a7cece;
+	width: 150px;
+	padding:0px 20px 20px 20px;
+	margin-left: 20px;
+	background:url(images/cocktail.gif) repeat-x;
+	text-align:center;
+	line-height: 1;
+	float: right;
+}
+#elixirs h2{
+	color:#000000;
+}
+#elixirs h3{
+	color:#d12c47;
+}
+#footer{
+	font-size:50%;
+	line-height:normal;
+	text-align:center;
+	margin-top:30px;
+}
+.cd{
+	font-style:italic;
+}
+.artist{
+	font-weight: bold;
+}
+#elixirs a:link {
+	color:#007e7e;
+}
+#elixirs a:visited {
+	color:#333333;
+}
+#elixirs a:hover {
+	color:#0d5353;
+	background:#f88396;
+}
+#directions a:link {
+	color:#007e7e;
+}
+#directions a:visited {
+	color:#333333;
+}
+#directions a:hover {
+	color:#0d5353;
+	background:#f88396;
+}

@@ -1,0 +1,144 @@
+body{
+	background-image: url(images/background2.gif);
+	font-size: small;
+}
+/*
+#allcontent{
+	width:800px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #675c47;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+header.top{
+	background-color : #675C47;
+	margin:0px 10px;
+}
+
+#main, #blog{
+	display: table-cell;
+	background-image: url(images/background.gif);
+	background-repeat: repeat;
+	padding: 10px;
+	vertical-align: top;
+}
+#main h3, #drinks h3, #blog h3, #formh3{
+	color:#935F55;
+}
+aside{
+	display: table-cell;
+	background-image: url(images/background.gif);
+	padding: 10px;
+	vertical-align: top;
+
+}
+.sidebarshop {
+	text-align: center;
+	line-height: 1.5em;
+}
+footer{
+	margin:0px 10px  10px  10px ;
+	background-color : #675C47;
+	color:#F0E6D4;
+	text-align: center;
+	padding: 15px;
+	font-size: 80%;
+}
+a:link{
+	color:#b66666;
+	text-decoration: none;
+	border-bottom: thin dotted #b66666;
+}
+a:visited{
+	color:#675c47;
+	text-decoration: none;
+	border-bottom: thin dotted #675c47;
+}
+div#table{
+	display: table;
+	border-spacing: 10px;
+}
+div#row{
+	display: table-row;
+}
+#drinks{
+	display: table-cell;
+	background-color:#efe5d0;
+	width:20%;
+	padding:15px;
+	vertical-align: top;
+}
+header.top #headerSlogan{
+	float: right;
+}
+#award{
+	position: absolute;
+	left:700px;
+	top:50px;
+}
+#coupon{
+	position: fixed;
+	top:250px;
+	left: -50px;
+}
+#coupon a{
+	border: none;
+}
+nav{
+	background-color:#efe5d0;
+	margin:10px 10px 0px 10px;
+}
+nav ul{
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px;
+}
+
+nav ul li{
+	display: inline;
+	padding: 5px 10px;
+
+}
+
+nav ul li a:link, nav ul li a:visited{
+	color:#954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+
+form{
+	display: table;
+	background-color: #e1ceb8;
+	border:thin dotted;
+	padding:10px
+
+}
+form div.formrow{
+	display: table-row;
+}
+
+form p.formcell{
+	display: table-cell;
+	vertical-align: top;
+	padding: 10px;
+}
+form p:first-child{
+	font-weight: bold;
+	text-align: right;	
+}
+form p:nth-child(2n){
+	text-align: left;	
+}
+form div p.formcell:first-letter{
+	font-size: 2em;
+}
+form textarea:first-line{
+	color:red;
+}
+
