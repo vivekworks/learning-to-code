@@ -1,5 +1,5 @@
 """
-Purpose - Concordance Entry Enhancement
+Purpose - Concordance with two files
 Author  - Vivek T S
 Date    - 13/12/2018
 """
@@ -9,8 +9,8 @@ def find(line,target,start):
                         return index
         return -1
 
-def concordanceEntry(target):
-        textFile = open('Mobydick.txt','r',encoding='utf-8')
+def concordanceEntry(target,textFileName):
+        textFile = open(textFileName,'r',encoding='utf-8')
         lineNumber=1
         for line in textFile:
                 count = line.count(target)
@@ -23,12 +23,12 @@ def concordanceEntry(target):
                                 start=found+len(target)-1
                 lineNumber=lineNumber+1
 
+def concordance(dictFileName, textFileName):
+        dictFile=open(dictFileName,'r',encoding='utf-8')
+        for dictword in dictFile:
+                concordanceEntry(dictword.rstrip(),textFileName)
+
 def main():
-        word = input('Search for : ')
-        while word != 'q':
-                #index = find(text,word)
-                concordanceEntry(word)
-                #print(word,'at index',index)
-                word = input('Search for :')
+        concordance('dictionary_new.txt','Mobydick.txt')
 
 main()
