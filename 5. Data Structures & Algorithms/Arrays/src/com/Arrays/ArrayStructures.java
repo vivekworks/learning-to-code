@@ -4,6 +4,7 @@ public class ArrayStructures {
     private int[] theArray = new int[50];
     private int[] theArrayOne = new int[50];
     private int[] theArrayTwo = new int[50];
+    private int[] theArrayThree = new int[50];
     private int arraySize = 10;
 
     private void generateRandomArray() {
@@ -12,6 +13,7 @@ public class ArrayStructures {
             theArray[i] = val;
             theArrayOne[i] = val;
             theArrayTwo[i] = val;
+            theArrayThree[i] = val;
         }
     }
 
@@ -132,12 +134,24 @@ public class ArrayStructures {
         return foundIndex == -1 ? "Not found" : String.valueOf(foundIndex);
     }
 
+    private void insertionSort(){
+        for (int i=1;i<arraySize;i++){
+            int j=i;
+            int insert = theArrayThree[i];
+            while((j>0) && (insert < theArrayThree[j-1])){
+                theArrayThree[j] = theArrayThree[j-1];
+                j--;
+            }
+            theArrayThree[j] = insert;
+        }
+    }
+
     public static void main(String[] args) {
         ArrayStructures arrayStruct = new ArrayStructures();
         arrayStruct.generateRandomArray();
         System.out.println("Array Generated");
         arrayStruct.printArray(arrayStruct.theArray);
-        arrayStruct.bubbleSortOne();
+        /*arrayStruct.bubbleSortOne();
         System.out.println(arrayStruct.getValueAtIndex(5));
         System.out.println("The Array contains the value on the index : " + arrayStruct.doesArrayContainThisValue(12));
         arrayStruct.deleteIndex(7);
@@ -151,6 +165,8 @@ public class ArrayStructures {
         arrayStruct.printArray(arrayStruct.theArrayTwo);
         arrayStruct.bubbleSortTwo();
         arrayStruct.printArray(arrayStruct.theArrayTwo);
-        System.out.println(arrayStruct.binarySearchForValue(15));
+        System.out.println(arrayStruct.binarySearchForValue(15));*/
+        arrayStruct.insertionSort();
+        arrayStruct.printArray(arrayStruct.theArrayThree);
     }
 }
