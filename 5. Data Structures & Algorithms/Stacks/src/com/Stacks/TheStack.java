@@ -6,18 +6,18 @@ public class TheStack {
 
     private int[] theStack;
 
-    private int arraySize;
+    private int stackSize;
 
     private int topOfStack=-1;
 
     private TheStack(int size){
-        arraySize=size;
+        stackSize=size;
         theStack=new int[size];
         Arrays.fill(theStack,-1);
     }
 
     private void push(int element){
-        if(topOfStack < arraySize-1)
+        if(topOfStack < stackSize-1)
             theStack[++topOfStack] = element;
         else
             System.out.println("Stack is full");
@@ -48,7 +48,7 @@ public class TheStack {
     private void displayStack(){
         System.out.println("-------------------------------------------------------------");
         System.out.print("|  ");
-        for (int i=0;i<arraySize;i++)
+        for (int i=0;i<stackSize;i++)
             System.out.print(i+"  |  ");
         System.out.println();
         System.out.println("-------------------------------------------------------------");
