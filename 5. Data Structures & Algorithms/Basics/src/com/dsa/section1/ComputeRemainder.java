@@ -3,7 +3,7 @@ package com.dsa.section1;
 
 public class ComputeRemainder {
 
-    public static long computeRemainder(long base, long power, long divisor){
+    private static long computeRemainder(long base, long power, long divisor){
         long baseRaisedToPower =1;
         for (int i=1;i<=power;i++){
             baseRaisedToPower*=base;
@@ -11,7 +11,7 @@ public class ComputeRemainder {
         return baseRaisedToPower%divisor;
     }
 
-    public static long computeRemainderCorrected(long base, long power, long divisor){
+    private static long computeRemainderCorrected(long base, long power, long divisor){
         long baseRaisedToPower=1;
         for(int i=1;i<=power;i++){
             baseRaisedToPower*=base;
@@ -20,7 +20,7 @@ public class ComputeRemainder {
         return baseRaisedToPower;
     }
 
-    public static long computeRemainderUsingEBS(long base, long power, long divisor){
+    private static long computeRemainderUsingEBS(long base, long power, long divisor){
         long baseRaisedToPower=1;
         long powerBitsReversed=0;
         int numBits=0;
@@ -44,7 +44,7 @@ public class ComputeRemainder {
     }
 
     public static void main(String[] args){
-        long startTime = System.currentTimeMillis(),endTime=0;
+        long startTime = System.currentTimeMillis(),endTime;
         long ans =0;
         System.out.println("1. First Technique");
         for (int i=0;i<1000;i++){
