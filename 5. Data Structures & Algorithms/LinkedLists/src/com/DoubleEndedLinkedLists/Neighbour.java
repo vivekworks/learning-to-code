@@ -1,19 +1,19 @@
 package com.DoubleEndedLinkedLists;
 
-class Neighbour {
+public class Neighbour {
 
-    Neighbour next;
-    Neighbour previous;
+    public Neighbour next;
+    public Neighbour previous;
 
-    private int houseNumber;
+    public int houseNumber;
     private String houseOwner;
 
-    Neighbour(int houseNumber, String houseOwner){
+    public Neighbour(int houseNumber, String houseOwner){
         this.houseNumber = houseNumber;
         this.houseOwner = houseOwner;
     }
 
-    void display(){
-        System.out.println("House No. "+houseNumber+", "+houseOwner+" & next : "+ (next == null ? "Last House " : next.houseOwner));
+    public void display(){
+        System.out.println("House No. "+houseNumber+", "+houseOwner+" ; next : "+ (next == null ? "Last House " : next.houseOwner)+" ; previous : "+ (previous == null ? "First House " : previous.houseOwner));
     }
 }
