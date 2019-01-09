@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="MergeSort complete">
+    <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basic Sorting complete">
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/Sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/Sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion/src/com/Recursion/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/src/com/Recursion/MergeSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Recursion/src/com/Recursion/MergeSort.java">
+        <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state relative-caret-position="246">
+              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -62,6 +65,10 @@
         <option value="$PROJECT_DIR$/LinkedLists/src/com/DoublyLinkedLists/TheDoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/TheRecursion.java" />
         <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/MergeSort.java" />
+        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -79,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,20 +96,36 @@
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -122,21 +144,17 @@
               <item name="Recursion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546945795926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547043971146" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -191,6 +209,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheBubbleSort" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Sorting.BubbleSort" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheDELinkedList" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.DoubleEndedLinkedLists.TheDELinkedList" />
       <module name="LinkedLists" />
@@ -205,6 +230,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheInsertionSort" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Sorting.InsertionSort" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheLinkedList" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.LinkedLists.TheLinkedList" />
       <module name="LinkedLists" />
@@ -213,6 +245,13 @@
       </method>
     </configuration>
     <configuration name="TheMergeSort" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Sorting.MergeSort" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheMergeSortRecursion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.Recursion.MergeSort" />
       <module name="Recursion" />
       <method v="2">
@@ -229,6 +268,13 @@
     <configuration name="TheRecursion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.Recursion.TheRecursion" />
       <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheSelectionSort" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Sorting.SelectionSort" />
+      <module name="Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,6 +301,10 @@
       <item itemvalue="Application.TheDELinkedList" />
       <item itemvalue="Application.TheDoublyLinkedList" />
       <item itemvalue="Application.TheRecursion" />
+      <item itemvalue="Application.TheMergeSortRecursion" />
+      <item itemvalue="Application.TheSelectionSort" />
+      <item itemvalue="Application.TheBubbleSort" />
+      <item itemvalue="Application.TheInsertionSort" />
       <item itemvalue="Application.TheMergeSort" />
       <item itemvalue="Application.ComputeRemainder" />
     </list>
@@ -352,14 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546870240133</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="MergeSort complete">
+      <created>1546945818582</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1546945818582</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,7 +432,7 @@
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.23051947" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.12668744" />
+      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.12668744" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,7 +441,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" x="164" y="323" width="1876" height="221" id="Run" order="8" sideWeight="0.49946696" visible="true" weight="0.2889126" />
+      <window_info active="true" anchor="right" x="164" y="323" width="1876" height="221" id="Run" order="8" sideWeight="0.49946696" visible="true" weight="0.2889126" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
@@ -427,7 +484,8 @@
     <MESSAGE value="Recursion complete" />
     <MESSAGE value="MergeSort begins" />
     <MESSAGE value="MergeSort complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeSort complete" />
+    <MESSAGE value="Basic Sorting complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Sorting complete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Section 1/src/ComputeRemainder.java" />
@@ -534,8 +592,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Recursion/src/com/Recursion/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
         </state>
       </provider>
     </entry>
