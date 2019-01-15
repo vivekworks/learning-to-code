@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/Sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTables/HashTables.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTables/src/com/HashTables/TheHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="HashTables Complete">
+      <change afterPath="$PROJECT_DIR$/HashTables/src/com/Dictionary/TheHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTables/src/com/Dictionary/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTables/src/com/Dictionary/WordList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,13 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HashTables/src/com/HashTables/TheHashTable.java">
+        <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/Word.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="964">
-              <caret line="144" column="63" selection-start-line="144" selection-start-column="63" selection-end-line="144" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/TheHashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/WordList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-43">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -76,6 +89,9 @@
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/QuickSort.java" />
         <option value="$PROJECT_DIR$/HashTables/src/com/HashTables/TheHashTable.java" />
+        <option value="$PROJECT_DIR$/HashTables/src/com/Dictionary/TheHashTable.java" />
+        <option value="$PROJECT_DIR$/HashTables/src/com/Dictionary/WordList.java" />
+        <option value="$PROJECT_DIR$/HashTables/src/com/Dictionary/Word.java" />
       </list>
     </option>
   </component>
@@ -93,6 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,16 +123,35 @@
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="HashTables" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Dictionary" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547399527672" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547543022538" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -133,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheHashTable">
+  <component name="RunManager" selected="Application.TheDictionary">
     <configuration name="ArrayStructures" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -179,6 +216,13 @@
     <configuration name="TheDELinkedList" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.DoubleEndedLinkedLists.TheDELinkedList" />
       <module name="LinkedLists" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheDictionary" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Dictionary.WordList" />
+      <module name="HashTables" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -290,6 +334,7 @@
       <item itemvalue="Application.TheShellSort" />
       <item itemvalue="Application.TheQuickSort" />
       <item itemvalue="Application.TheHashTable" />
+      <item itemvalue="Application.TheDictionary" />
       <item itemvalue="Application.ComputeRemainder" />
     </list>
     <recent_temporary>
@@ -400,14 +445,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547043993806</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Mergesort complete&#10;Hashtable begun">
+      <created>1547399628641</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547399628641</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,8 +475,8 @@
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.23051947" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.12668744" />
-      <window_info active="true" anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.49946696" visible="true" weight="0.28787878" />
+      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.12662338" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.49946696" weight="0.28787878" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,6 +486,34 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1716418" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.23051947" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.12662338" />
+      <window_info active="true" anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.49946696" visible="true" weight="0.28787878" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Binary Search complete" />
@@ -448,7 +528,9 @@
     <MESSAGE value="MergeSort begins" />
     <MESSAGE value="MergeSort complete" />
     <MESSAGE value="Basic Sorting complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Sorting complete" />
+    <MESSAGE value="Mergesort complete&#10;Hashtable begun" />
+    <MESSAGE value="HashTables Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashTables Complete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Section 1/src/ComputeRemainder.java" />
@@ -586,11 +668,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HashTables/src/com/HashTables/TheHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="964">
-          <caret line="144" column="63" selection-start-line="144" selection-start-column="63" selection-end-line="144" selection-end-column="63" />
+        <state relative-caret-position="269">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/TheHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/WordList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
