@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="HashTables Complete">
-      <change afterPath="$PROJECT_DIR$/HashTables/src/com/Dictionary/TheHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTables/src/com/Dictionary/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTables/src/com/Dictionary/WordList.java" afterDir="false" />
+    <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BinaryTrees/BinaryTrees.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/TheBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,29 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/TheBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/Word.java">
+        <entry file="file://$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/TheHashTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/WordList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +88,8 @@
         <option value="$PROJECT_DIR$/HashTables/src/com/Dictionary/TheHashTable.java" />
         <option value="$PROJECT_DIR$/HashTables/src/com/Dictionary/WordList.java" />
         <option value="$PROJECT_DIR$/HashTables/src/com/Dictionary/Word.java" />
+        <option value="$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/TheBinaryTree.java" />
+        <option value="$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/Node.java" />
       </list>
     </option>
   </component>
@@ -121,28 +119,20 @@
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTrees" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTrees" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTrees" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="HashTables" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTrees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,7 +141,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547543022538" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547558815614" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -170,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheDictionary">
+  <component name="RunManager" selected="Application.TheBinaryTree">
     <configuration name="ArrayStructures" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -202,6 +192,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheBinaryTree" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.BinaryTrees.TheBinaryTree" />
+      <module name="BinaryTrees" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -335,6 +332,7 @@
       <item itemvalue="Application.TheQuickSort" />
       <item itemvalue="Application.TheHashTable" />
       <item itemvalue="Application.TheDictionary" />
+      <item itemvalue="Application.TheBinaryTree" />
       <item itemvalue="Application.ComputeRemainder" />
     </list>
     <recent_temporary>
@@ -452,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547399628641</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HashTables Complete">
+      <created>1547543031359</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547543031359</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -473,9 +478,9 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Terminal" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.23051947" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.12662338" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.12662338" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12662338" />
       <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.49946696" weight="0.28787878" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -487,7 +492,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -501,9 +506,9 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Terminal" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.23051947" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.12662338" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.12662338" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12662338" />
       <window_info active="true" anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.49946696" visible="true" weight="0.28787878" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -692,8 +697,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HashTables/src/com/Dictionary/Word.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/TheBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
