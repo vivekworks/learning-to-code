@@ -5,7 +5,8 @@ public class ShellSort {
     private int arraySize;
 
     private void fillArray() {
-        arraySize = 10;
+        arraySize =0xA;
+       // System.out.println(arraySize);
         theArray = new int[arraySize];
         for (int i = 0; i < arraySize; i++) {
             theArray[i] = (int) (Math.random() * 10);

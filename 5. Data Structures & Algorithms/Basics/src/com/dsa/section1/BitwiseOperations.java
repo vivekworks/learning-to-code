@@ -1,9 +1,11 @@
 package com.dsa.section1;
 
+import java.math.BigDecimal;
+
 public class BitwiseOperations {
     public static void main(String[] args){
 
-        int a =10;
+        /*int a =10;
         int b =20;
 
         //Bitwise AND (&)
@@ -49,6 +51,16 @@ public class BitwiseOperations {
         //----------------
         //    10101        ==> -21
         //----------------
-        System.out.println("One's complement b : "+(~b));
+        System.out.println("One's complement b : "+(~b));*/
+        new BitwiseOperations().check();
+    }
+
+    private void check(){
+        int i = 128;
+        byte b ;
+        b=(byte)i;
+        //b = b *2;
+        System.out.println(b);
+
     }
 }

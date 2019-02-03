@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="HeapSort Complete&#10;Sorting completed">
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/Sorting/HeapSort.java" afterDir="false" />
+    <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/MainProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/topics/BitLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/topics/ControlStatements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/topics/StaticBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/topics/TypeInference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +24,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/HeapSort.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/ControlStatements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+            <state relative-caret-position="187">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/StaticBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/MainProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/BitLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -76,7 +138,6 @@
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/SelectionSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/MergeSort.java" />
-        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/QuickSort.java" />
         <option value="$PROJECT_DIR$/HashTables/src/com/HashTables/TheHashTable.java" />
         <option value="$PROJECT_DIR$/HashTables/src/com/Dictionary/TheHashTable.java" />
@@ -85,6 +146,15 @@
         <option value="$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/TheBinaryTree.java" />
         <option value="$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/Node.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/HeapSort.java" />
+        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/TypeInference.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/BitLogic.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/StaticBlocks.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/MainProgram.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/ControlStatements.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java" />
       </list>
     </option>
   </component>
@@ -103,7 +173,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,37 +188,48 @@
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548756969223" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549218860586" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheHeapSort">
+  <component name="RunManager" selected="Application.MainProgram">
     <configuration name="ArrayStructures" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -192,6 +272,26 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dsa.section1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainProgram" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.MainProgram" />
+      <module name="Basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticBlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.topics.StaticBlocks" />
+      <module name="5. Data Structures &amp; Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.topics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,6 +418,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoDArray" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.topics.TwoDArray" />
+      <module name="Basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="5. Data Structures &amp; Algorithms" />
       <method v="2">
@@ -326,6 +433,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.BitwiseOperations" />
+      <item itemvalue="Application.TwoDArray" />
+      <item itemvalue="Application.MainProgram" />
       <item itemvalue="Application.ArrayStructures" />
       <item itemvalue="Application.TheStack" />
       <item itemvalue="Application.TheQueue" />
@@ -345,9 +454,11 @@
       <item itemvalue="Application.TheBinaryTree" />
       <item itemvalue="Application.TheHeapSort" />
       <item itemvalue="Application.ComputeRemainder" />
+      <item itemvalue="Application.StaticBlocks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticBlocks" />
         <item itemvalue="Application.ComputeRemainder" />
       </list>
     </recent_temporary>
@@ -472,10 +583,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,8 +602,8 @@
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.12662338" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" visible="true" weight="0.12564902" />
-      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.49946696" weight="0.28764278" />
+      <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" visible="true" weight="0.12445887" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.49946696" weight="0.28679654" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -519,7 +630,8 @@
     <MESSAGE value="Mergesort complete&#10;Hashtable begun" />
     <MESSAGE value="HashTables Complete" />
     <MESSAGE value="HeapSort Complete&#10;Sorting completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HeapSort Complete&#10;Sorting completed" />
+    <MESSAGE value="Basics revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Section 1/src/ComputeRemainder.java" />
@@ -554,13 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -686,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -700,10 +798,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/HeapSort.java" />
+    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TypeInference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/MainProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/StaticBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/ControlStatements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/BitLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
         </state>
       </provider>
     </entry>
