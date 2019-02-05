@@ -9,13 +9,15 @@ public class MainProgram {
         bitLogic.bitProcessing();
         ControlStatements ctrlStmts = new ControlStatements(10);
         System.out.println(ctrlStmts.loop);
-        StaticBlocks.main(null);*/
+        StaticBlocks.main(null);
         for(String cl :args)
             System.out.println(cl);
         var varargs = new VarArgs();
         varargs.checkVarArgs();
         varargs.checkVarArgs("a");
         varargs.checkVarArgs("a","b");
-        varargs.checkVarArgs("a","b","c");
+        varargs.checkVarArgs("a","b","c");*/
+        Recursion recurse = new Recursion("VIVEK");
+        recurse.printReverse("VIVEK".length()-1);
     }
 }
