@@ -37,19 +37,21 @@ public class MainProgram {
         //sup.id=1;
         //sup1.dob = "";
         //AbstractSuperClass abSuper = new AbstractSuperClass();
-        AbstractSubClass abSuper = new AbstractSubClass();
+        /*AbstractSubClass abSuper = new AbstractSubClass();
         abSuper.name="Triangle";
         abSuper.printName();
-        abSuper.area();
+        abSuper.area();*/
 
-        var a = new SubClass();
+        /*var a = new SubClass();
         a.stuff();
         var b = new SuperClass();
         //b.stuff(); !Error
         var c = getObject(0);
         //c.stuff(); !Error
         var d = getObject(1);
-        //d.stuff(); !Error
+        //d.stuff(); !Error*/
+        var varargs = new VarArgs();
+        varargs.chick();
     }
 
     private static SuperClass getObject(int num){

@@ -5,9 +5,14 @@ public class Recursion {
     public Recursion(String word){
         this.word=word;
     }
-    public void printReverse(int index){
+    private void printReverse(int index){
         if (index < 0) return;
         System.out.print(word.charAt(index));
         printReverse(index-1);
+        Interface.much();
+        //int b = a;
+    }
+    public interface goonie{
+        void munch();
     }
 }
