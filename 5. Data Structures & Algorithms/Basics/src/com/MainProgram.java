@@ -2,12 +2,6 @@ package com;
 import com.topics.*;
 
 public class MainProgram {
-    static{
-        System.out.println("Main class Static Initializer");
-    }
-    MainProgram(){
-        System.out.println("Main class Constructor");
-    }
     public static void main(String[] args){
         /*TypeInference typeInference = new TypeInference();
         typeInference.varCheck();
@@ -49,9 +43,10 @@ public class MainProgram {
         var c = getObject(0);
         //c.stuff(); !Error
         var d = getObject(1);
-        //d.stuff(); !Error*/
+        //d.stuff(); !Error
         var varargs = new VarArgs();
-        varargs.chick();
+        varargs.chick();*/
+        ChainedException.run();
     }
 
     private static SuperClass getObject(int num){
