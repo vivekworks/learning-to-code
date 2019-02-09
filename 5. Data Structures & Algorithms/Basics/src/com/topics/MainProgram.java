@@ -1,5 +1,5 @@
-package com;
-import com.topics.*;
+package com.topics;
+
 
 public class MainProgram {
     public static void main(String[] args){
@@ -46,7 +46,42 @@ public class MainProgram {
         //d.stuff(); !Error
         var varargs = new VarArgs();
         varargs.chick();*/
-        ChainedException.run();
+        //ChainedException.run();
+
+        /*try{
+            for(int i=0;i<5;i++){
+                System.out.println("Main Thread : "+i);
+                Thread.sleep(500);
+            }
+        } catch (InterruptedException ie){
+            System.out.println("Main thread interrupted");
+        }*/
+        /*Recursion recurs = new Recursion();
+        NewThread newThread1 = new NewThread("Thread1",recurs);
+        NewThread newThread2 = new NewThread("Thread2",recurs);
+        NewThread newThread3 = new NewThread("Thread3",recurs);
+        newThread1.thread.start();
+        newThread2.thread.start();
+        newThread3.thread.start();
+        try{
+            newThread1.thread.join();
+            newThread2.thread.join();
+            newThread3.thread.join();
+        } catch (InterruptedException ie){
+            System.out.println("Child threads error");
+        }
+        System.out.println(newThread1.thread.isAlive()+" , "+newThread2.thread.isAlive()+" , "+newThread3.thread.isAlive());
+        System.out.println("Main Thread Exiting");*/
+        /*Q q = new Q();
+        Producer producer = new Producer(q);
+        Consumer consumer = new Consumer(q);
+        producer.thread.start();
+        consumer.thread.start();*/
+        Deadlock dead = new Deadlock();
+        dead.startLock();
+        //new Thread(dead).start();
+        //dead.callOtherOne();
+
     }
 
     private static SuperClass getObject(int num){
