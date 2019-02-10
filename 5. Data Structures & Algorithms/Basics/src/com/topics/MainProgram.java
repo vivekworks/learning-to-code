@@ -1,6 +1,8 @@
 package com.topics;
 
 
+import java.nio.charset.IllegalCharsetNameException;
+
 public class MainProgram {
     public static void main(String[] args){
         /*TypeInference typeInference = new TypeInference();
@@ -77,18 +79,51 @@ public class MainProgram {
         Consumer consumer = new Consumer(q);
         producer.thread.start();
         consumer.thread.start();*/
-        Deadlock dead = new Deadlock();
-        dead.startLock();
+        //Deadlock dead = new Deadlock();
+        //dead.startLock();
         //new Thread(dead).start();
         //dead.callOtherOne();
-
-    }
-
-    private static SuperClass getObject(int num){
-        switch (num){
-            case 0 : return new SubClass();
-            case 1 : return new SuperClass();
-            default: return null;
+        SuspendResume sr1 = new SuspendResume("One");
+        SuspendResume sr2 = new SuspendResume("Two");
+        sr1.thread.start();
+        sr2.thread.start();
+        try{
+            System.out.println("Main thread gonna sleep");
+            Thread.sleep(1000);
+            System.out.println("Main thread woke up");
+            sr1.suspend();
+            System.out.println("Suspending Thread One");
+            System.out.println("Main thread gonna sleep");
+            Thread.sleep(1000);
+            System.out.println("Main thread woke up");
+            sr1.resume();
+            System.out.println("Resuming Thread One");
+            sr2.suspend();
+            System.out.println("Suspending Thread Two");
+            System.out.println("Main thread gonna sleep");
+            Thread.sleep(1000);
+            System.out.println("Main thread woke up");
+            sr2.resume();
+            System.out.println("Resuming Thread Two");
+        } catch (InterruptedException ie){
+            System.out.println("Main thread interrupted");
         }
+
+        try{
+            System.out.println("Waiting for threads to finish");
+            sr1.thread.join();
+            sr2.thread.join();
+        } catch (InterruptedException ie){
+            System.out.println("Joining threads interrupted");
+        }
+        System.out.println("Main thread exiting");
     }
+
+//    private static SuperClass getObject(int num){
+//        switch (num){
+//            case 0 : return new SubClass();
+//            case 1 : return new SuperClass();
+//            default: return null;
+//        }
+//    }
 }
