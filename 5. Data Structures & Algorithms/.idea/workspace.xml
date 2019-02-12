@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/enumerations/Answers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/enumerations/AskMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/enumerations/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/enumerations/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/topics/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/topics/Annotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/threadcheck/ThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/threadcheck/ThreadMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,13 +17,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Wrapper.java">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Annotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="20" column="148" selection-start-line="20" selection-start-column="148" selection-end-line="20" selection-end-column="148" />
               <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="120" column="23" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+            <state relative-caret-position="321">
+              <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -72,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/BubbleSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/SelectionSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/MergeSort.java" />
@@ -121,8 +112,9 @@
         <option value="$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadTwo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadOne.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/threadcheck/ThreadMain.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/Wrapper.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/Annotation.java" />
       </list>
     </option>
   </component>
@@ -140,7 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,11 +186,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549981624741" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549996894638" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -621,10 +613,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -641,7 +633,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12337662" />
-      <window_info active="true" anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" visible="true" weight="0.28556594" />
+      <window_info active="true" anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" visible="true" weight="0.28463203" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -700,13 +692,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Recursion/src/com/Recursion/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/InsertionSort.java" />
     <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/MergeSort.java" />
     <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/SelectionSort.java">
@@ -880,87 +865,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/ThreadMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Answers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/AskMe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadOne.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Color.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/ThreadMain.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadTwo.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Answers.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Question.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/AskMe.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Wrapper.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="120" column="23" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+        <state relative-caret-position="321">
+          <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Wrapper.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="20" column="148" selection-start-line="20" selection-start-column="148" selection-end-line="20" selection-end-column="148" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

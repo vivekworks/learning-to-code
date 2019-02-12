@@ -117,8 +117,10 @@ public class MainProgram {
             System.out.println("Joining threads interrupted");
         }
         System.out.println("Main thread exiting");*/
-        Wrapper wrapper = new Wrapper();
-        wrapper.wrap();
+        /*Wrapper wrapper = new Wrapper();
+        wrapper.wrap();*/
+        Annotation anno = new Annotation();
+        anno.annoCheck();
     }
 
 //    private static SuperClass getObject(int num){
