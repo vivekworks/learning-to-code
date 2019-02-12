@@ -83,7 +83,7 @@ public class MainProgram {
         //dead.startLock();
         //new Thread(dead).start();
         //dead.callOtherOne();
-        SuspendResume sr1 = new SuspendResume("One");
+        /*SuspendResume sr1 = new SuspendResume("One");
         SuspendResume sr2 = new SuspendResume("Two");
         sr1.thread.start();
         sr2.thread.start();
@@ -116,7 +116,9 @@ public class MainProgram {
         } catch (InterruptedException ie){
             System.out.println("Joining threads interrupted");
         }
-        System.out.println("Main thread exiting");
+        System.out.println("Main thread exiting");*/
+        Wrapper wrapper = new Wrapper();
+        wrapper.wrap();
     }
 
 //    private static SuperClass getObject(int num){

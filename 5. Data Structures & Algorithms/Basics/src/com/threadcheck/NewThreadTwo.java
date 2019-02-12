@@ -34,8 +34,9 @@ public class NewThreadTwo implements Runnable {
                 System.out.println(threadName+" got interrupted");
             }
         }*/
+        int count=0;
         System.out.println("Thread Two");
-        while(true)
+        while(count++ < 10)
             sync.threadTwoAction();
     }
 }

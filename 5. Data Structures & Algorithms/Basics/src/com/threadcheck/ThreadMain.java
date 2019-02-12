@@ -5,8 +5,8 @@ public class ThreadMain {
         Sync sync = new Sync();
         NewThreadOne threadOne = new NewThreadOne("One", sync);
         NewThreadTwo threadTwo = new NewThreadTwo("Two", sync);
-        threadOne.thread.start();
         threadTwo.thread.start();
+        threadOne.thread.start();
         /*try{
             if(threadOne.thread.isAlive())
                 threadOne.thread.join();
