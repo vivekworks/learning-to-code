@@ -4,11 +4,13 @@ public class NewThreadOne implements Runnable {
     String threadName;
     Thread thread;
     Sync sync;
-    NewThreadOne(String threadName, Sync sync){
-        this.threadName=threadName;
-        this.sync =sync;
-        thread = new Thread(this,threadName);
+
+    NewThreadOne(String threadName, Sync sync) {
+        this.threadName = threadName;
+        this.sync = sync;
+        thread = new Thread(this, threadName);
     }
+
     /**
      * When an object implementing interface <code>Runnable</code> is used
      * to create a thread, starting the thread causes the object's
@@ -30,13 +32,8 @@ public class NewThreadOne implements Runnable {
                 System.out.println(threadName+" got interrupted");
             }
         }*/
-        int count=0;
-            System.out.println("Thread One");
-            try {
-                wait();
-            } catch (InterruptedException ie){
-                System.out.println("Thread One Interrupted");
-            }
-            System.out.println("Wait over");
+        System.out.println("Thread One");
+        while(true)
+            sync.threadOneAction();
     }
 }
