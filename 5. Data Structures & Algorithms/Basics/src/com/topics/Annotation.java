@@ -9,6 +9,9 @@ import java.util.Arrays;
     int val();
     String post();
 }
+@interface Author{
+    String name();
+}
 
 public class Annotation {
     @Anno(val=7,post="Vaish")
