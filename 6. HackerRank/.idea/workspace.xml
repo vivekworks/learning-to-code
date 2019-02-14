@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6283e0ff-f921-4c71-a963-ffd886929ee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/GradingStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/MaximizingXOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/TimeConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/topics/Annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/topics/Annotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/topics/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/topics/MainProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Problems.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/problems/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/src/main/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/problems/warmup/MinMaxSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/src/warmup/MinMaxSum.java" afterDir="false" />
+    <list default="true" id="6283e0ff-f921-4c71-a963-ffd886929ee6" name="Default Changelist" comment="HackerRank">
+      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/ApplesAndOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/BetweenTwoSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/BreakingTheRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/Kangaroo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/src/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/src/main/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Problems/main/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Problems/main/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Problems/warmup/GradingStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Problems/warmup/GradingStudents.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problems/src/main/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,10 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problems/src/warmup/GradingStudents.java">
+        <entry file="file://$PROJECT_DIR$/Problems/src/warmup/ApplesAndOranges.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -59,8 +57,12 @@
       <list>
         <option value="$PROJECT_DIR$/Problems/src/warmup/TimeConversion.java" />
         <option value="$PROJECT_DIR$/Problems/src/warmup/MaximizingXOR.java" />
-        <option value="$PROJECT_DIR$/Problems/src/main/Solution.java" />
         <option value="$PROJECT_DIR$/Problems/src/warmup/GradingStudents.java" />
+        <option value="$PROJECT_DIR$/Problems/src/warmup/Kangaroo.java" />
+        <option value="$PROJECT_DIR$/Problems/src/warmup/BetweenTwoSets.java" />
+        <option value="$PROJECT_DIR$/Problems/src/warmup/BreakingTheRecords.java" />
+        <option value="$PROJECT_DIR$/Problems/src/main/Solution.java" />
+        <option value="$PROJECT_DIR$/Problems/src/warmup/ApplesAndOranges.java" />
       </list>
     </option>
   </component>
@@ -114,12 +116,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550066272238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550155586263" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -169,14 +171,13 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
@@ -187,6 +188,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -196,6 +198,10 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HackerRank" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Problems/src/warmup/TimeConversion.java">
@@ -219,20 +225,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/main/Solution.java">
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/GradingStudents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/Kangaroo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/BetweenTwoSets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/BreakingTheRecords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/main/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/GradingStudents.java">
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/ApplesAndOranges.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
