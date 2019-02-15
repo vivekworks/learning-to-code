@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/Annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/Annotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/SubClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/SuperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/topics/Annotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/topics/Annotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/topics/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/topics/Author.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Annotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +46,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#502#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -113,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="595">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
@@ -214,8 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -527,8 +517,10 @@
       <item itemvalue="Application.ArrayStructures" />
       <item itemvalue="Application.AskMe" />
       <item itemvalue="Application.BitwiseOperations" />
+      <item itemvalue="Application.ComputeRemainder" />
       <item itemvalue="Application.Enums" />
       <item itemvalue="Application.MainProgram" />
+      <item itemvalue="Application.StaticBlocks" />
       <item itemvalue="Application.TheBinaryTree" />
       <item itemvalue="Application.TheBubbleSort" />
       <item itemvalue="Application.TheDELinkedList" />
@@ -548,8 +540,6 @@
       <item itemvalue="Application.TheStack" />
       <item itemvalue="Application.ThreadMain" />
       <item itemvalue="Application.TwoDArray" />
-      <item itemvalue="Application.ComputeRemainder" />
-      <item itemvalue="Application.StaticBlocks" />
     </list>
     <recent_temporary>
       <list>
@@ -716,7 +706,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -977,24 +967,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="136">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1017,11 +993,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#502#526#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1047,10 +1022,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
