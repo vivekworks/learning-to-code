@@ -1,5 +1,6 @@
 package com.threadcheck;
 
+
 public class Sync {
     int count;
     boolean set = false;

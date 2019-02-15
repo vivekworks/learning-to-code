@@ -1,8 +1,9 @@
 package com.topics;
 
+@FunctionalInterface
 public interface Interface {
-
-    private void check(){
+    void chuck();
+    /*private void check(){
 
     }
     int a=10;
@@ -11,5 +12,5 @@ public interface Interface {
     }
     static void much(){
 
-    }
+    }*/
 }

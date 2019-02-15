@@ -18,7 +18,7 @@ public class EnumCheck {
         for(var app :Color.values()){
             System.out.println(app);
         }
-        for(var app :Color.values()){
+        for(Color app :Color.values()){
             System.out.println(app.getPrice());
         }
         if(col==Color.Indigo)

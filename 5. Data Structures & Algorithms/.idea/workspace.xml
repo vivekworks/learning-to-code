@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/Annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/Annotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/topics/MainProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/topics/MainProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/SubClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/SuperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/topics/Annotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/topics/Annotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/topics/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/topics/Author.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,12 +21,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Annotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +35,86 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/SubClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1405">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Interface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#502#526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Answers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/AskMe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -77,18 +159,13 @@
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/HeapSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/BitLogic.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/StaticBlocks.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/ControlStatements.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/TypeInference.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/AbstractSuperClass.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/AbstractSubClass.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/SubClass.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/SuperClass.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/Interface2.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/Interface.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/ChainedException.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/VivekException.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/NewThread2.java" />
@@ -102,10 +179,8 @@
         <option value="$PROJECT_DIR$/Basics/src/com/topics/Thread2.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/Deadlock.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/SuspendResume.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/enumerations/Apple.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/enumerations/Color.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/enumerations/Answers.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/enumerations/Question.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/enumerations/AskMe.java" />
@@ -115,6 +190,13 @@
         <option value="$PROJECT_DIR$/Basics/src/com/topics/Wrapper.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/Annotation.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/SubClass.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/Interface.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/SuperClass.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" />
       </list>
     </option>
   </component>
@@ -132,6 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +247,22 @@
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="enumerations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="threadcheck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="topics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -174,16 +274,23 @@
               <item name="topics" type="462c0819:PsiDirectoryNode" />
               <item name="Annotation.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
+              <item name="SuperClass.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550084231359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550224585567" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -606,10 +713,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -626,7 +733,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12337662" />
-      <window_info active="true" anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" visible="true" weight="0.28463203" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.2845275" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -766,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/BitLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -807,17 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/AbstractSuperClass.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/AbstractSubClass.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/SubClass.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/SuperClass.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Interface2.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Interface.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/ChainedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -839,7 +929,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/NewThread2.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Q.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Producer.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Consumer.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Thread1.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Thread2.java" />
@@ -858,30 +947,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadOne.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Color.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/ThreadMain.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadTwo.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Answers.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Question.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/AskMe.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Wrapper.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/MainProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1405">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-170">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TwoDArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Interface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Answers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/AskMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
