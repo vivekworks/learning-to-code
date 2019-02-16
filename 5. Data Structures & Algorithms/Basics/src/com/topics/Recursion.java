@@ -15,7 +15,7 @@ public class Recursion {
         if (index < 0) return;
         System.out.print(word.charAt(index));
         printReverse(index - 1);
-        Interface.much();
+        //Interface.much();
         //int b = a;
     }
 
