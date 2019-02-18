@@ -6,7 +6,9 @@ public class GenericsMain {
         //genDemo.showDemo();
         //NonGenDemo nonGenDemo = new NonGenDemo();
         //nonGenDemo.showDemo();
-        ThreeGenDemo threeGenDemo = new ThreeGenDemo();
-        threeGenDemo.showDemo();
+        //ThreeGenDemo threeGenDemo = new ThreeGenDemo();
+        //threeGenDemo.showDemo();
+        BoundsDemo boundsDemo = new BoundsDemo();
+        boundsDemo.showDemo();
     }
 }
