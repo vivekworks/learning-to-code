@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/generics/Gen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/generics/GenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/generics/GenericsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/generics/NonGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/generics/NonGenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/generics/ThreeGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/generics/ThreeGenDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/io/ConsoleInputMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/io/ConsoleInputMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/io/ConsoleInputMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/io/ConsoleInputMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/io/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/io/ReadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/io/WriteConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/io/WriteConsole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/io/ReadAndWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/io/ReadAndWrite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/io/write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/io/write.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,58 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ConsoleInputMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basics/src/com/io/WriteFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,13 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/TheBinaryTree.java" />
-        <option value="$PROJECT_DIR$/BinaryTrees/src/com/BinaryTrees/Node.java" />
-        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/HeapSort.java" />
-        <option value="$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/BitLogic.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/StaticBlocks.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/ControlStatements.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/TypeInference.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/AbstractSuperClass.java" />
@@ -146,6 +93,13 @@
         <option value="$PROJECT_DIR$/Basics/src/com/io/WriteConsole.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/io/ConsoleInputMain.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/generics/Gen.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/generics/GenDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/generics/NonGen.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/generics/NonGenDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/generics/TwoGen.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/generics/GenericsMain.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/generics/ThreeGenDemo.java" />
       </list>
     </option>
   </component>
@@ -163,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,18 +149,17 @@
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550419803057" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550501894405" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -229,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IOOperation">
+  <component name="RunManager" selected="Application.GenericsMain">
     <configuration name="ArrayStructures" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -274,6 +228,13 @@
     </configuration>
     <configuration name="Enums" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.enumerations.EnumCheck" />
+      <module name="Basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericsMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.generics.GenericsMain" />
       <module name="Basics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -452,6 +413,7 @@
       <item itemvalue="Application.Enums" />
       <item itemvalue="Application.MainProgram" />
       <item itemvalue="Application.IOOperation" />
+      <item itemvalue="Application.GenericsMain" />
       <item itemvalue="Application.TheBinaryTree" />
       <item itemvalue="Application.TheBubbleSort" />
       <item itemvalue="Application.TheDELinkedList" />
@@ -643,10 +605,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -663,7 +624,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12337662" />
-      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.2835498" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.2834891" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -722,57 +683,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/HeapSort.java" />
-    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Sorting/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/ControlStatements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/BitLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/dsa/section1/BitwiseOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/TypeInference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/StaticBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/AbstractSuperClass.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/AbstractSubClass.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Interface2.java" />
@@ -927,83 +837,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/file2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/file1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/WriteConsole.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/file2.txt" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/file1.txt" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadConsole.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/WriteConsole.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/write.txt" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadFile.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ConsoleInputMain.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/WriteFile.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/Gen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/write.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ConsoleInputMain.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/GenDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/WriteFile.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/NonGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/NonGenDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/ThreeGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/ThreeGenDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/GenericsMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
