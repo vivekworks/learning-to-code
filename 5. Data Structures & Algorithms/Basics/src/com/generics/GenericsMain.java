@@ -12,7 +12,15 @@ public class GenericsMain {
         //boundsDemo.showDemo();
         //WildcardDemo wildcardDemo = new WildcardDemo();
         //wildcardDemo.showDemo();
-        BoundedWildcardDemo boundedWildcardDemo = new BoundedWildcardDemo();
-        boundedWildcardDemo.showDemo();
+        //BoundedWildcardDemo boundedWildcardDemo = new BoundedWildcardDemo();
+        //boundedWildcardDemo.showDemo();
+        //GenMethDemo genMethDemo = new GenMethDemo();
+        //genMethDemo.showDemo();
+        //GenCons genCons1 = new GenCons(12);
+        //genCons1.showValue();
+        //GenCons genCons2 = new GenCons(12.5);
+        //genCons2.showValue();
+        MinMaxDemo minMaxDemo = new MinMaxDemo();
+        minMaxDemo.showDemo();
     }
 }
