@@ -8,7 +8,11 @@ public class GenericsMain {
         //nonGenDemo.showDemo();
         //ThreeGenDemo threeGenDemo = new ThreeGenDemo();
         //threeGenDemo.showDemo();
-        BoundsDemo boundsDemo = new BoundsDemo();
-        boundsDemo.showDemo();
+        //BoundsDemo boundsDemo = new BoundsDemo();
+        //boundsDemo.showDemo();
+        //WildcardDemo wildcardDemo = new WildcardDemo();
+        //wildcardDemo.showDemo();
+        BoundedWildcardDemo boundedWildcardDemo = new BoundedWildcardDemo();
+        boundedWildcardDemo.showDemo();
     }
 }
