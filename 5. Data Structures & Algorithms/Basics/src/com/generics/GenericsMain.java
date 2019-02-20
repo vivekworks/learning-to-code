@@ -20,7 +20,9 @@ public class GenericsMain {
         //genCons1.showValue();
         //GenCons genCons2 = new GenCons(12.5);
         //genCons2.showValue();
-        MinMaxDemo minMaxDemo = new MinMaxDemo();
-        minMaxDemo.showDemo();
+        //MinMaxDemo minMaxDemo = new MinMaxDemo();
+        //minMaxDemo.showDemo();
+        HierarchyDemo hierarchyDemo = new HierarchyDemo();
+        hierarchyDemo.showDemo();
     }
 }
