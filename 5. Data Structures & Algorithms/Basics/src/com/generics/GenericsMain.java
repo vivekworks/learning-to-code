@@ -1,5 +1,6 @@
 package com.generics;
 
+
 public class GenericsMain {
     public static void main(String[] args){
         //GenDemo genDemo = new GenDemo();
@@ -22,7 +23,7 @@ public class GenericsMain {
         //genCons2.showValue();
         //MinMaxDemo minMaxDemo = new MinMaxDemo();
         //minMaxDemo.showDemo();
-        HierarchyDemo hierarchyDemo = new HierarchyDemo();
-        hierarchyDemo.showDemo();
+        //HierarchyDemo hierarchyDemo = new HierarchyDemo();
+        //hierarchyDemo.showDemo();
     }
 }
