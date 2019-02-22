@@ -9,5 +9,7 @@ public class LambdaCheck  {
         System.out.println(diffNum.getValue(-1));
         Factors fact1 = (a, b) -> a/b==0;
         System.out.println(fact1.test(2,10));
+        ZeroArgs zero = () -> 15;
+        System.out.println(zero.zero());
     }
 }
