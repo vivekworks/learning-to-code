@@ -1,5 +1,5 @@
 package com.lambda;
 
 public interface MyNumber {
-    double getValue();
+    boolean getValue(int a);
 }

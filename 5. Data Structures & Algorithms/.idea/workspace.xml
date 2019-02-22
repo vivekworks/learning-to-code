@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/LambdaCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/MyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/generics/GenericsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/generics/GenericsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/generics/GenSubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/generics/GenSubClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/generics/GenSuperClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/generics/GenSuperClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/generics/GenericsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/generics/GenericsMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/generics/HierarchyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/generics/HierarchyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/lambda/LambdaCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/lambda/LambdaCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/lambda/MyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/lambda/MyNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,14 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,7 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basics/src/com/enumerations/Question.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/enumerations/AskMe.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadTwo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/threadcheck/NewThreadOne.java" />
@@ -97,6 +90,7 @@
         <option value="$PROJECT_DIR$/Basics/src/com/lambda/LamdaCheck.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/lambda/MyNumber.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/lambda/Factors.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/lambda/LambdaCheck.java" />
       </list>
     </option>
@@ -115,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,10 +146,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550764967859" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550858489442" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -611,9 +605,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23294243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -630,7 +624,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12337662" />
-      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.28037384" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.28030303" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -640,34 +634,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22547974" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39935064" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12337662" />
-      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" visible="true" weight="0.28138527" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Binary Search complete" />
@@ -689,13 +655,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/Answers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -975,13 +934,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/GenericsMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -989,24 +942,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/MyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/Factors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/LambdaCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/MyNumber.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
