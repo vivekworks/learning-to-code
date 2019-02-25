@@ -53,6 +53,8 @@ public class Solution {
         System.out.println(DayOfTheProgrammer.dayOfProgrammer(2000));
         System.out.println(DayOfTheProgrammer.dayOfProgrammer(2100));
         System.out.println(DayOfTheProgrammer.dayOfProgrammer(2019));*/
-        BonAppetit.bonAppetit(list,2,8);
+        //BonAppetit.bonAppetit(list,2,8);
+        int[] socks={1,2,1,2,1,3,2};
+        System.out.println(SockMerchant.sockMerchant(7,socks));
     }
 }
