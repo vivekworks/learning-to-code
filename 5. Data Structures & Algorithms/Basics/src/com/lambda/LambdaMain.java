@@ -10,6 +10,8 @@ public class LambdaMain {
         lambdaException.demoCheck();*/
         /*MethRefDemoClass mrdc = new MethRefDemoClass();
         mrdc.methodReference();*/
-        InstanceMethWithObjectRefDemo.check();
+        //InstanceMethWithObjectRefDemo.check();
+        //ConsClass.check();
+        new BuiltInFunc().main();
     }
 }
