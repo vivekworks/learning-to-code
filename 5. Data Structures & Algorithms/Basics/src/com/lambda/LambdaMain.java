@@ -8,7 +8,8 @@ public class LambdaMain {
         lambdaAsArgsDemo.lambdaCheck();*/
         /*LambdaExceptionDemo lambdaException = new LambdaExceptionDemo();
         lambdaException.demoCheck();*/
-        MethRefDemoClass mrdc = new MethRefDemoClass();
-        mrdc.methodReference();
+        /*MethRefDemoClass mrdc = new MethRefDemoClass();
+        mrdc.methodReference();*/
+        InstanceMethWithObjectRefDemo.check();
     }
 }

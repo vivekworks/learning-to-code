@@ -55,6 +55,15 @@ public class Solution {
         System.out.println(DayOfTheProgrammer.dayOfProgrammer(2019));*/
         //BonAppetit.bonAppetit(list,2,8);
         int[] socks={1,2,1,2,1,3,2};
-        System.out.println(SockMerchant.sockMerchant(7,socks));
+        //System.out.println(SockMerchant.sockMerchant(7,socks));
+        /*System.out.println(DrawingClass.pageCount(6,3));
+        System.out.println(DrawingClass.pageCount(7,4));
+        System.out.println(DrawingClass.pageCount(7,5));
+        System.out.println(DrawingClass.pageCount(7,3));
+        System.out.println(DrawingClass.pageCount(2,1));
+        System.out.println(DrawingClass.pageCount(10,5));*/
+        System.out.println(CountingValleys.countingValleys(8,"UDDDUDUU"));
+        System.out.println(CountingValleys.countingValleys(8,"DDUUUUDD"));
+        System.out.println(CountingValleys.countingValleys(12,"DDUUDDUDUUUD"));
     }
 }

@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/EmptyArrayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/FIException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/LambdaAsArgsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/LambdaExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/MethRefDemoClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/MethRefInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/MethRefOutClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/StringFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/HighTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/InstanceMethWithObjectRefDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/lambda/MyFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. HackerRank/Problems/src/warmup/CountingValleys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. HackerRank/Problems/src/warmup/DrawingClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/lambda/LambdaCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/lambda/LambdaCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/lambda/LambdaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/lambda/LambdaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/Problems/src/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/Problems/src/main/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/production/Problems/main/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/production/Problems/main/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/production/Problems/warmup/SockMerchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/production/Problems/warmup/SockMerchant.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +23,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/MyFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/HighTemp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/InstanceMethWithObjectRefDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,9 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basics/src/com/threadcheck/Sync.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/topics/VarArgs.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/io/ConsoleInput.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/topics/Recursion.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/io/ReadConsole.java" />
@@ -101,6 +142,9 @@
         <option value="$PROJECT_DIR$/Basics/src/com/lambda/MethRefInterface.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/lambda/MethRefOutClass.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/lambda/MethRefDemoClass.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/lambda/MyFunc.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/lambda/HighTemp.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/lambda/InstanceMethWithObjectRefDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java" />
       </list>
     </option>
@@ -119,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,12 +201,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551106394817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551194488411" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -616,8 +660,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -693,9 +738,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadConsole.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/WriteConsole.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/write.txt" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadFile.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ConsoleInputMain.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/io/WriteFile.java" />
@@ -1005,10 +1047,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/MyFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/HighTemp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/InstanceMethWithObjectRefDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda/LambdaMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
