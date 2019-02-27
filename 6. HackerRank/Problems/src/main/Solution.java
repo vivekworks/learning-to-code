@@ -62,8 +62,12 @@ public class Solution {
         System.out.println(DrawingClass.pageCount(7,3));
         System.out.println(DrawingClass.pageCount(2,1));
         System.out.println(DrawingClass.pageCount(10,5));*/
-        System.out.println(CountingValleys.countingValleys(8,"UDDDUDUU"));
-        System.out.println(CountingValleys.countingValleys(8,"DDUUUUDD"));
-        System.out.println(CountingValleys.countingValleys(12,"DDUUDDUDUUUD"));
+        //System.out.println(CountingValleys.countingValleys(8,"UDDDUDUU"));
+        //System.out.println(CountingValleys.countingValleys(8,"DDUUUUDD"));
+        //System.out.println(CountingValleys.countingValleys(12,"DDUUDDUDUUUD"));
+        //System.out.println(ElectronicsShop.getMoneySpent(socks,socks,10));
+        //System.out.println(CatsAndAMouse.catAndMouse(1,5,10));
+        int[][] mat = {{8,3,4},{1,5,9},{6,7,2}};
+        FormingAMagicSquare.formingMagicSquare(mat);
     }
 }
