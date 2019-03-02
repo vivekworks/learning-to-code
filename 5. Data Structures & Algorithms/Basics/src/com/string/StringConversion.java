@@ -32,7 +32,31 @@ public class StringConversion {
         char[] c = new char[10];
         b.getChars(0,7,c,0);
         char[] d = b.toCharArray();
-        System.out.println(Arrays.toString(c)+" - "+Arrays.toString(d)+" - " +a);
+        byte[] by = b.getBytes();
+        System.out.println(Arrays.toString(c)+" - "+Arrays.toString(d)+" - " +a+" - "+Arrays.toString(by));
+    }
+
+    void stringComparison(){
+        String a = "Hellow";
+        String b = "HELLOW";
+        String c = "Marshmellow";
+        System.out.println(a.equals(b)+" - "+a.equalsIgnoreCase(b));
+        System.out.println(a.regionMatches(1,c,6,5)+" - "+b.regionMatches(1,c,6,5)+" - "+b.regionMatches(true,1,c,6,5));
+        System.out.println(a.startsWith("H")+" - "+b.endsWith("LOW")+" - "+b.startsWith("ELL",1));
+        String d = "CardiB";
+        String e = "CardiB";
+        String f= d;
+        String g = new String(f);
+        System.out.println(d.equals(e)+" : "+(d==e)+" : "+d.equals(f)+" : "+(f==d)+" : "+(f.equals(g))+" : "+(f==g));
+        String h = "Bruno Mars";
+        String i = "Bruno mars";
+        System.out.println(h.compareTo(i)+" ; "+h.compareToIgnoreCase(i));
+    }
+
+    void stringSearch(){
+        String a = " day It's gay wonderful day";
+        System.out.println(a.indexOf('f')+" : "+a.indexOf("'s")+" : "+a.indexOf("a",3)+" : "+a.indexOf("a"));
+        System.out.println(a.lastIndexOf(" day")+" : "+a.lastIndexOf("day",10));
     }
 
     public String toString(){

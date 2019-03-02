@@ -5,5 +5,7 @@ public class StringMain {
         StringConversion stringConversion = new StringConversion();
         stringConversion.basicOperations();
         stringConversion.characterExtraction();
+        stringConversion.stringComparison();
+        stringConversion.stringSearch();
     }
 }
