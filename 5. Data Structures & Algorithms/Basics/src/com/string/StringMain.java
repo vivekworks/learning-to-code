@@ -7,5 +7,13 @@ public class StringMain {
         stringConversion.characterExtraction();
         stringConversion.stringComparison();
         stringConversion.stringSearch();
+        stringConversion.stringModification();
+        stringConversion.valueOfConversion();
+        stringConversion.caseChange();
+        stringConversion.joiningStrings();
+        StringBuffers stringBuffers = new StringBuffers();
+        stringBuffers.constructors();
+        stringBuffers.bufferSize();
+        stringBuffers.bufferCharacters();
     }
 }

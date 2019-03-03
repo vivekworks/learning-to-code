@@ -59,6 +59,58 @@ public class StringConversion {
         System.out.println(a.lastIndexOf(" day")+" : "+a.lastIndexOf("day",10));
     }
 
+    void stringModification(){
+        String a = "Data Structures And Algorithms";
+        String b = a.substring(5,15);
+        String c = a.substring(20);
+        String d = a.concat(b);
+        String e = a+b;
+        String f = a.replace('c','k');
+        String g = a.replace("ture","toure");
+        char ch = '\u2000';
+        String h = ch+g+ch;
+        System.out.println(b+" : "+c);
+        System.out.println(d+" : "+e);
+        System.out.println(f+" : "+g);
+        System.out.println(h.trim()+" : "+h.strip());
+        System.out.println(h.stripLeading()+" : "+h.stripTrailing());
+    }
+
+    void valueOfConversion(){
+        int a = 100;
+        byte b = 20;
+        char c = 'g';
+        float f = 3.52F;
+        long l = 979L;
+        double d = 999;
+        int[] inCh = {2,4,5,6};
+        char[] chCh = {'a','b','c','d','e','f'};
+        System.out.println(String.valueOf(a));
+        System.out.println(String.valueOf(b));
+        System.out.println(String.valueOf(c));
+        System.out.println(String.valueOf(f));
+        System.out.println(String.valueOf(l));
+        System.out.println(String.valueOf(d));
+        System.out.println(String.valueOf(inCh));
+        System.out.println(String.valueOf(chCh));
+        System.out.println(String.valueOf(new StringConversion()));
+        System.out.println(String.valueOf(chCh,3,2));
+    }
+
+    void caseChange(){
+        String a = "vaish";
+        String b = "VAISH";
+        System.out.println(a.toUpperCase()+" : "+b.toLowerCase());
+    }
+
+    void joiningStrings(){
+        String a= "Apples";
+        String b= "Oranges";
+        String c= "Bananas";
+        String d= "Pineapples";
+        System.out.println(String.join(";",a,b,c,d));
+    }
+
     public String toString(){
         return "Contains the basic operations of StringConversion Class";
     }
