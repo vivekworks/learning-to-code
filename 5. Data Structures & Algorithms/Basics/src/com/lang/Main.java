@@ -6,6 +6,7 @@ public class Main {
         //Number doubleObj = new Number();
         //doubleObj.operations();
         Process process = new Process();
-        process.processOperations();
+        //process.processOperations();
+        process.memoryManagement();
     }
 }
