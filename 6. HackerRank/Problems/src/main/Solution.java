@@ -67,7 +67,7 @@ public class Solution {
         //System.out.println(CountingValleys.countingValleys(12,"DDUUDDUDUUUD"));
         //System.out.println(ElectronicsShop.getMoneySpent(socks,socks,10));
         //System.out.println(CatsAndAMouse.catAndMouse(1,5,10));
-        int[][] mat = {{8,3,4},{1,5,9},{6,7,2}};
-        FormingAMagicSquare.formingMagicSquare(mat);
+        int[][] mat = {{4,9,2},{3,5,7},{8,1,5}};
+        System.out.println(FormingAMagicSquare.formingMagicSquare(mat));
     }
 }
