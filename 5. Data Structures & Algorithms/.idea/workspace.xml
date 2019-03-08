@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change beforePath="$PROJECT_DIR$/../6. HackerRank/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6. HackerRank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6. HackerRank/Problems/src/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/Problems/src/main/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6. HackerRank/Problems/src/warmup/ClimbingTheLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/Problems/src/warmup/ClimbingTheLeaderBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6. HackerRank/production/Problems/main/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/production/Problems/main/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6. HackerRank/production/Problems/warmup/ClimbingTheLeaderBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/production/Problems/warmup/ClimbingTheLeaderBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/io/write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/io/write.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,17 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Arrays/src/com/Arrays/ArrayStructures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1462">
-              <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,7 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basics/src/com/generics/WildcardDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/generics/Stats.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/generics/TwoD.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/generics/ThreeD.java" />
@@ -105,6 +91,7 @@
         <option value="$PROJECT_DIR$/Basics/src/com/lang/TestClone.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/lang/PackageTest.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/lang/Main.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java" />
       </list>
     </option>
   </component>
@@ -122,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,40 +119,6 @@
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,23 +133,17 @@
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551984814369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552057720145" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -222,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LangMain">
+  <component name="RunManager" selected="Application.IOOperation">
     <configuration name="ArrayStructures" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -669,9 +614,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -688,7 +632,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12242687" />
-      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.27705628" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.276273" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -747,7 +691,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/lambda.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/generics/GenericsMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -967,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/lang/Process.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -1008,17 +944,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/lang/PackageTest.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/lang/PackageTest.java" />
+    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Arrays/ArrayStructures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Arrays/ArrayStructures.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ReadAndWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1462">
-          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        <state relative-caret-position="-46">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/io/ConsoleInputMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>

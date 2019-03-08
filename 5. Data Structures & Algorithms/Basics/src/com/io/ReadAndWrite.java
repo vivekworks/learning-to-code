@@ -1,6 +1,8 @@
 package com.io;
 
 import java.io.*;
+import java.util.ArrayList;
+
 import static java.lang.Math.*;
 
 public class ReadAndWrite {
@@ -34,5 +36,10 @@ public class ReadAndWrite {
         }
         int a=10;
         double b=pow(10,2);
+
+        ReadAndWrite rw = new ReadAndWrite();
+        ArrayList<ReadAndWrite> alist = new ArrayList<>();
+        alist.add(rw);
+        alist.add(rw);
     }
 }
