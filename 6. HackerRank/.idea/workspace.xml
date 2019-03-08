@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6283e0ff-f921-4c71-a963-ffd886929ee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/alice1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/scores1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/DesignerPDFViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/TheHurdleRace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/UtopianTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/src/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/src/main/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/ClimbingTheLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/src/warmup/ClimbingTheLeaderBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/Problems/main/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Problems/main/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/Problems/warmup/ClimbingTheLeaderBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Problems/warmup/ClimbingTheLeaderBoard.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,29 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/src/warmup/ClimbingTheLeaderBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problems/src/main/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,6 +66,9 @@
         <option value="$PROJECT_DIR$/Problems/src/warmup/scores1.txt" />
         <option value="$PROJECT_DIR$/Problems/src/warmup/alice1.txt" />
         <option value="$PROJECT_DIR$/Problems/src/warmup/ClimbingTheLeaderBoard.java" />
+        <option value="$PROJECT_DIR$/Problems/src/warmup/TheHurdleRace.java" />
+        <option value="$PROJECT_DIR$/Problems/src/warmup/DesignerPDFViewer.java" />
+        <option value="$PROJECT_DIR$/Problems/src/warmup/UtopianTree.java" />
         <option value="$PROJECT_DIR$/Problems/src/main/Solution.java" />
       </list>
     </option>
@@ -148,7 +128,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552048877350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552072352276" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -208,7 +188,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28304905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28624734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -217,7 +197,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32575756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,15 +400,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problems/src/warmup/ClimbingTheLeaderBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/TheHurdleRace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/DesignerPDFViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/UtopianTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problems/src/main/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="459">
+          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

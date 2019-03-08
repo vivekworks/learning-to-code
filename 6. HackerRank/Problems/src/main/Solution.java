@@ -74,7 +74,7 @@ public class Solution {
         //int[][] mat = {{4,9,2},{3,5,7},{8,1,5}};
         //System.out.println(FormingAMagicSquare.formingMagicSquare(mat));
         //System.out.println(PickingNumbers.pickingNumbers(list));
-        int[] scores = {100, 100, 50, 40, 40, 20, 10};
+        /*int[] scores = {100, 100, 50, 40, 40, 20, 10};
         int[] alice = {5, 25, 50, 120};
         int[] steps = ClimbingTheLeaderBoard.climbingLeaderboard(scores, alice);
         System.out.println(Arrays.toString(steps));
@@ -91,8 +91,22 @@ public class Solution {
         long t2=System.nanoTime();
         int[] steps4 = ClimbingTheLeaderBoard.climbingLeaderboard(input[0],input[1]);
         long t3=System.nanoTime();
-        System.out.println((t2-t1)+" : "+(t3-t2));//273735820 : 4337017839; 3757064 ;4511542;5855841
+        System.out.println((t2-t1)+" : "+(t3-t2));//273735820 : 4337017839; 3757064 ;4511542;5855841*/
         //System.out.println(Arrays.toString(steps4));
+        /*int[] hurdle1={1, 6, 3, 5, 2};
+        int[] hurdle2={2, 5, 4, 5, 2};
+        int[] hurdle3={1, 2, 3, 3, 2};
+        System.out.println(TheHurdleRace.hurdleRace(4,hurdle1));
+        System.out.println(TheHurdleRace.hurdleRace(7,hurdle2));
+        System.out.println(TheHurdleRace.hurdleRace(1,hurdle3));*/
+        int[] h = {1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7};
+        /*String word1="abc";
+        String word2="zaba";
+        System.out.println(DesignerPDFViewer.designerPdfViewer(h,word1));
+        System.out.println(DesignerPDFViewer.designerPdfViewer(h,word2));*/
+        System.out.println(UtopianTree.utopianTree(0));
+        System.out.println(UtopianTree.utopianTree(1));
+        System.out.println(UtopianTree.utopianTree(4));
     }
 
     private static int[][] getAliceAndScores() {
