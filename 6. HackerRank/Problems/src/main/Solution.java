@@ -2,6 +2,7 @@ package main;
 
 import warmup.*;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -80,7 +81,54 @@ public class Solution {
         int[] scores2={100, 90, 90, 80, 75, 60};
         int[] alice2={50, 65, 77, 90, 102};
         int[] steps2 = ClimbingTheLeaderBoard.climbingLeaderboard(scores2,alice2);
-        //System.out.println(Arrays.toString(steps2));
         System.out.println(Arrays.toString(steps2));
+        long t1=System.nanoTime();
+        //int[][] input = getAliceAndScores();
+        long t2=System.nanoTime();
+        //ClimbingTheLeaderBoard.climbingLeaderboard(input[0],input[1]);
+        long t3=System.nanoTime();
+        //System.out.println((t2-t1)+" : "+(t3-t2));//273735820 : 4337017839
     }
+
+    private static int[][] getAliceAndScores(){
+        File alice = new File(System.getProperty("user.dir")+"\\Problems\\src\\warmup\\alice.txt");
+        File scores = new File(System.getProperty("user.dir")+"\\Problems\\src\\warmup\\scores.txt");
+        int[] scoresArray=null,aliceArray=null;
+        try{
+            BufferedReader fileReader = new BufferedReader(new FileReader(alice));
+            String line;
+            String fullAlice="";
+            while((line=fileReader.readLine()) != null){
+                fullAlice+=line;
+            }
+            fileReader.close();
+            String[] aliceSArray = fullAlice.split(" ");
+            System.out.println(aliceSArray.length);
+            aliceArray = new int[aliceSArray.length];
+            for(int i=0;i<aliceSArray.length;i++){
+                aliceArray[i] = Integer.parseInt(aliceSArray[i].trim());
+            }
+            System.out.println(aliceArray.length);
+            fileReader = new BufferedReader(new FileReader(scores));
+            String fullScores="";
+            while((line=fileReader.readLine()) != null){
+                fullScores+=line;
+            }
+            fileReader.close();
+            String[] scoresSArray = fullScores.split(" ");
+            System.out.println(scoresSArray.length);
+            scoresArray = new int[scoresSArray.length];
+            for(int i=0;i<scoresSArray.length;i++){
+                scoresArray[i] = Integer.parseInt(scoresSArray[i].trim());
+            }
+            System.out.println(scoresArray.length);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        int[][] output=new int[2][1];
+        output[0]=scoresArray;
+        output[1]=aliceArray;
+        return output;
+    }
+
 }

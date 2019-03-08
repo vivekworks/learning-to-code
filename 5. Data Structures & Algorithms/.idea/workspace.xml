@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lang/PackageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/lang/TestClone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/lang/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/lang/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/lang/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/lang/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/Problems/src/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/Problems/src/main/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/Problems/src/warmup/ClimbingTheLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/Problems/src/warmup/ClimbingTheLeaderBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/production/Problems/main/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/production/Problems/main/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. HackerRank/production/Problems/warmup/ClimbingTheLeaderBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6. HackerRank/production/Problems/warmup/ClimbingTheLeaderBoard.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +17,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Arrays/src/com/Arrays/ArrayStructures.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1462">
+              <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,6 +122,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +135,35 @@
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -154,14 +195,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551899339840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551984814369" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -630,8 +669,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -873,13 +913,6 @@
     <entry file="file://$PROJECT_DIR$/Basics/src/mymodapp/appsrc/appstart/appstart/mymodappdemo/MyModAppDemo.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/mymodapp/appsrc/appfuncs/appfuncs/simplefuncs/SimpleMathFuncs.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/mymodapp/appsrc/appfuncs/module-info.java" />
-    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Arrays/ArrayStructures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/mymodapp/appsrc/appstart/module-info.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/enumerations/EnumCheck.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -982,6 +1015,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/src/com/Arrays/ArrayStructures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1462">
+          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1022,7 +1062,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1034,11 +1074,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>5. Data Structures &amp; Algorithms</last-edited>
+          <last-edited>Arrays</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
