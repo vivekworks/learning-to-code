@@ -113,10 +113,17 @@ public class Solution {
         System.out.println(AngryProfessor.angryProfessor(2,times1));*/
         //System.out.println(BeautifulDaysAtTheMovies.beautifulDays(20,23,6));
         //System.out.println(ViralAdvertising.viralAdvertising(5));
-        System.out.println(SaveThePrisoner.saveThePrisoner(5, 2, 1));
+        /*System.out.println(SaveThePrisoner.saveThePrisoner(5, 2, 1));
         System.out.println(SaveThePrisoner.saveThePrisoner(5, 2, 2));
         System.out.println(SaveThePrisoner.saveThePrisoner(7, 19, 2));
-        System.out.println(SaveThePrisoner.saveThePrisoner(3, 7, 3));
+        System.out.println(SaveThePrisoner.saveThePrisoner(3, 7, 3));*/
+        int[] a={3,4,5};
+        int[] a1={1,2,3};
+        int k =2;
+        int[] m={1,2};
+        int[] m1={0,1,2};
+        CircularArrayRotation.circularArrayRotation(a,k,m);
+        CircularArrayRotation.circularArrayRotation(a1,k,m1);
     }
 
     private static int[][] getAliceAndScores() {

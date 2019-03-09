@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6283e0ff-f921-4c71-a963-ffd886929ee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/AngryProfessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/BeautifulDaysAtTheMovies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/SaveThePrisoner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/ViralAdvertising.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/src/warmup/CircularArrayRotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/src/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/src/main/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/Problems/main/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Problems/main/Solution.class" afterDir="false" />
@@ -72,8 +69,9 @@
         <option value="$PROJECT_DIR$/Problems/src/warmup/AngryProfessor.java" />
         <option value="$PROJECT_DIR$/Problems/src/warmup/BeautifulDaysAtTheMovies.java" />
         <option value="$PROJECT_DIR$/Problems/src/warmup/ViralAdvertising.java" />
-        <option value="$PROJECT_DIR$/Problems/src/main/Solution.java" />
         <option value="$PROJECT_DIR$/Problems/src/warmup/SaveThePrisoner.java" />
+        <option value="$PROJECT_DIR$/Problems/src/main/Solution.java" />
+        <option value="$PROJECT_DIR$/Problems/src/warmup/CircularArrayRotation.java" />
       </list>
     </option>
   </component>
@@ -91,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,11 +125,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552117933757" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552151294822" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -192,7 +190,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28944564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,11 +493,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problems/src/main/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="60" />
+        <state relative-caret-position="453">
+          <caret line="120" column="25" lean-forward="true" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/warmup/CircularArrayRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
