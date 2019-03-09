@@ -99,14 +99,24 @@ public class Solution {
         System.out.println(TheHurdleRace.hurdleRace(4,hurdle1));
         System.out.println(TheHurdleRace.hurdleRace(7,hurdle2));
         System.out.println(TheHurdleRace.hurdleRace(1,hurdle3));*/
-        int[] h = {1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7};
+        //int[] h = {1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7};
         /*String word1="abc";
         String word2="zaba";
         System.out.println(DesignerPDFViewer.designerPdfViewer(h,word1));
         System.out.println(DesignerPDFViewer.designerPdfViewer(h,word2));*/
-        System.out.println(UtopianTree.utopianTree(0));
+        /*System.out.println(UtopianTree.utopianTree(0));
         System.out.println(UtopianTree.utopianTree(1));
-        System.out.println(UtopianTree.utopianTree(4));
+        System.out.println(UtopianTree.utopianTree(4));*/
+        /*int[] times = {-1, -3, 4, 2};
+        int[] times1= {0, -1, 2, 1};
+        System.out.println(AngryProfessor.angryProfessor(3,times));
+        System.out.println(AngryProfessor.angryProfessor(2,times1));*/
+        //System.out.println(BeautifulDaysAtTheMovies.beautifulDays(20,23,6));
+        //System.out.println(ViralAdvertising.viralAdvertising(5));
+        System.out.println(SaveThePrisoner.saveThePrisoner(5, 2, 1));
+        System.out.println(SaveThePrisoner.saveThePrisoner(5, 2, 2));
+        System.out.println(SaveThePrisoner.saveThePrisoner(7, 19, 2));
+        System.out.println(SaveThePrisoner.saveThePrisoner(3, 7, 3));
     }
 
     private static int[][] getAliceAndScores() {
