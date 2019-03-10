@@ -117,13 +117,22 @@ public class Solution {
         System.out.println(SaveThePrisoner.saveThePrisoner(5, 2, 2));
         System.out.println(SaveThePrisoner.saveThePrisoner(7, 19, 2));
         System.out.println(SaveThePrisoner.saveThePrisoner(3, 7, 3));*/
-        int[] a={3,4,5};
+        /*int[] a={3,4,5};
         int[] a1={1,2,3};
         int k =2;
         int[] m={1,2};
         int[] m1={0,1,2};
         CircularArrayRotation.circularArrayRotation(a,k,m);
-        CircularArrayRotation.circularArrayRotation(a1,k,m1);
+        CircularArrayRotation.circularArrayRotation(a1,k,m1);*/
+        int[] p1 = {5,2,1,3,4,10,8,7,9,6,14,15,11,13,12,28,24,29,20,17,19,21,22,26,30,16,18,23,25,27};
+        int[] p = {4,3,5,1,2};
+        double a1 = System.nanoTime();
+        int[] ap =  SequenceEquation.permutationEquation(p,true);
+        double a2 = System.nanoTime();
+        int[] ak = SequenceEquation.permutationEquation(p,false);
+        double a3 = System.nanoTime();
+        System.out.println(Arrays.toString(ap)+" : "+Arrays.toString(ak));
+        System.out.println("First : "+(a2-a1)+" ; "+"Second : "+(a3-a2));
     }
 
     private static int[][] getAliceAndScores() {
