@@ -124,7 +124,7 @@ public class Solution {
         int[] m1={0,1,2};
         CircularArrayRotation.circularArrayRotation(a,k,m);
         CircularArrayRotation.circularArrayRotation(a1,k,m1);*/
-        int[] p1 = {5,2,1,3,4,10,8,7,9,6,14,15,11,13,12,28,24,29,20,17,19,21,22,26,30,16,18,23,25,27};
+        /*int[] p1 = {5,2,1,3,4,10,8,7,9,6,14,15,11,13,12,28,24,29,20,17,19,21,22,26,30,16,18,23,25,27};
         int[] p = {4,3,5,1,2};
         double a1 = System.nanoTime();
         int[] ap =  SequenceEquation.permutationEquation(p,true);
@@ -132,7 +132,13 @@ public class Solution {
         int[] ak = SequenceEquation.permutationEquation(p,false);
         double a3 = System.nanoTime();
         System.out.println(Arrays.toString(ap)+" : "+Arrays.toString(ak));
-        System.out.println("First : "+(a2-a1)+" ; "+"Second : "+(a3-a2));
+        System.out.println("First : "+(a2-a1)+" ; "+"Second : "+(a3-a2));*/
+        int[] cl = {1, 1, 1, 0, 1, 1, 0, 0, 0};
+        int k=3;
+        //double a1 = System.nanoTime();
+        JumpingOnTheClouds.jumpingOnClouds(cl,k);
+        //double a2 = System.nanoTime();
+        //System.out.println("First : "+(a2-a1));//1247548//828693//879472//860243
     }
 
     private static int[][] getAliceAndScores() {
