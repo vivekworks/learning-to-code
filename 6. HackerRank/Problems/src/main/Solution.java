@@ -6,6 +6,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
@@ -133,12 +134,17 @@ public class Solution {
         double a3 = System.nanoTime();
         System.out.println(Arrays.toString(ap)+" : "+Arrays.toString(ak));
         System.out.println("First : "+(a2-a1)+" ; "+"Second : "+(a3-a2));*/
-        int[] cl = {1, 1, 1, 0, 1, 1, 0, 0, 0};
-        int k=3;
+        //int[] cl = {1, 1, 1, 0, 1, 1, 0, 0, 0};
+        //int k=3;
         //double a1 = System.nanoTime();
-        JumpingOnTheClouds.jumpingOnClouds(cl,k);
+        //JumpingOnTheClouds.jumpingOnClouds(cl,k);
         //double a2 = System.nanoTime();
         //System.out.println("First : "+(a2-a1));//1247548//828693//879472//860243
+        //FindDigits.findDigits(1012);
+        double a1 = System.nanoTime();
+        ExtraLongFactorials.extraLongFactorials(30);
+        double a2 = System.nanoTime();
+        System.out.println("Time : "+(a2-a1));//6310787//6271085
     }
 
     private static int[][] getAliceAndScores() {
