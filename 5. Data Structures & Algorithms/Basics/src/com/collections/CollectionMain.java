@@ -5,6 +5,10 @@ public class CollectionMain {
         //ArrayListDemo.check();
         //LinkedListDemo.check();
         //HashSetDemo.check();
-        LinkedHashSetDemo.check();
+        //LinkedHashSetDemo.check();
+        //TreeSetDemo.check();
+        //PriorityQueueDemo.check();
+        //ArrayDequeDemo.check();
+        IteratorDemo.check();
     }
 }
