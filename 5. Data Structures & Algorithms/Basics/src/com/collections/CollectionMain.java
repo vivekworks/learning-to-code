@@ -9,6 +9,7 @@ public class CollectionMain {
         //TreeSetDemo.check();
         //PriorityQueueDemo.check();
         //ArrayDequeDemo.check();
-        IteratorDemo.check();
+        //IteratorDemo.check();
+        SpliteratorDemo.check();
     }
 }
