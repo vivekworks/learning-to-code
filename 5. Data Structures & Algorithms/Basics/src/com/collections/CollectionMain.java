@@ -11,5 +11,6 @@ public class CollectionMain {
         //ArrayDequeDemo.check();
         //IteratorDemo.check();
         SpliteratorDemo.check();
+        LinkedListDemo.addressCheck();
     }
 }
