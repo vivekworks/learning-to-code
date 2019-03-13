@@ -2,58 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6283e0ff-f921-4c71-a963-ffd886929ee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/collections/ArrayDequeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/collections/PriorityQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/collections/TreeSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/challenges/JavaOutputFormatting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/main/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/collections/CollectionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/Basics/src/com/collections/CollectionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/out/production/Basics/com/collections/CollectionMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms/out/production/Basics/com/collections/CollectionMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/NonDivisibleSubset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Problems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/ProblemSolving.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/main/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/AngryProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/AngryProfessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/ApplesAndOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/ApplesAndOranges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/BeautifulDaysAtTheMovies.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/BeautifulDaysAtTheMovies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/BetweenTwoSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/BetweenTwoSets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/Birthday.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/Birthday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/BonAppetit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/BonAppetit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/BreakingTheRecords.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/BreakingTheRecords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/CatsAndAMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/CatsAndAMouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/CircularArrayRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/CircularArrayRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/ClimbingTheLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/ClimbingTheLeaderBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/CountingValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/CountingValleys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/DayOfTheProgrammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/DayOfTheProgrammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/DesignerPDFViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/DesignerPDFViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/DivisibleSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/DivisibleSumPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/DrawingClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/DrawingClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/ElectronicsShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/ElectronicsShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/ExtraLongFactorials.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/ExtraLongFactorials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/FindDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/FindDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/FormingAMagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/FormingAMagicSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/GradingStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/GradingStudents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/JumpingOnTheClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/JumpingOnTheClouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/Kangaroo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/Kangaroo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/MaximizingXOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/MaximizingXOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/MigratoryBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/MigratoryBirds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/MinMaxSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/MinMaxSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/PickingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/PickingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/SaveThePrisoner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/SaveThePrisoner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/SequenceEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/SequenceEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/SockMerchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/TheHurdleRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/TheHurdleRace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/TimeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/TimeConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/UtopianTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/UtopianTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/ViralAdvertising.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/ViralAdvertising.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/alice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/alice.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/alice1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/alice1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/scores.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/src/warmup/scores1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/challenges/scores1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSolving/src/main/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/src/main/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Java/challenges/JavaOutputFormatting.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Java/challenges/JavaOutputFormatting.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +78,8 @@
         <option value="$PROJECT_DIR$/Problems/src/main/Solution.java" />
         <option value="$PROJECT_DIR$/Java/src/main/Solution.java" />
         <option value="$PROJECT_DIR$/Java/src/challenges/JavaOutputFormatting.java" />
+        <option value="$PROJECT_DIR$/ProblemSolving/src/main/Solution.java" />
+        <option value="$PROJECT_DIR$/ProblemSolving/src/challenges/NonDivisibleSubset.java" />
       </list>
     </option>
   </component>
@@ -143,6 +97,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,40 +106,14 @@
               <item name="6. HackerRank" type="b2602c69:ProjectViewProjectNode" />
               <item name="6. HackerRank" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="6. HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6. HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6. HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6. HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6. HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6. HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6. HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6. HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552383353984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552476501353" />
     <property name="jdk.selected.JAVA_MODULE" value="11.0.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../5. Data Structures &amp; Algorithms" />
     <property name="project.structure.last.edited" value="Project" />
@@ -212,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Java">
+  <component name="RunManager" selected="Application.ProblemSolving">
     <configuration name="Java" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="main.Solution" />
       <module name="Java" />
@@ -256,7 +185,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3054371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30863538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -524,16 +453,6 @@
     <entry file="file://$PROJECT_DIR$/ProblemSolving/src/challenges/JumpingOnTheClouds.java" />
     <entry file="file://$PROJECT_DIR$/ProblemSolving/src/challenges/FindDigits.java" />
     <entry file="file://$PROJECT_DIR$/ProblemSolving/src/challenges/ExtraLongFactorials.java" />
-    <entry file="file://$PROJECT_DIR$/ProblemSolving/src/main/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="145" column="38" lean-forward="true" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProblemSolving/src/challenges/Kangaroo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -555,6 +474,23 @@
           <folding>
             <element signature="e#122#123#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemSolving/src/challenges/NonDivisibleSubset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProblemSolving/src/main/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="148" column="70" selection-start-line="148" selection-start-column="70" selection-end-line="148" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -141,10 +141,12 @@ public class Solution {
         //double a2 = System.nanoTime();
         //System.out.println("First : "+(a2-a1));//1247548//828693//879472//860243
         //FindDigits.findDigits(1012);
-        double a1 = System.nanoTime();
-        ExtraLongFactorials.extraLongFactorials(30);
-        double a2 = System.nanoTime();
-        System.out.println("Time : "+(a2-a1));//6310787//6271085
+        //double a1 = System.nanoTime();
+        //ExtraLongFactorials.extraLongFactorials(30);
+        //double a2 = System.nanoTime();
+        //System.out.println("Time : "+(a2-a1));//6310787//6271085
+        int[] S={19,10,12,10,24,25,22};
+        System.out.println(NonDivisibleSubset.nonDivisibleSubset(4,S));
     }
 
     private static int[][] getAliceAndScores() {
