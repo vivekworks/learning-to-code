@@ -14,4 +14,23 @@ public class TreeSetDemo {
         System.out.println(treeSet);
         System.out.println(treeSet.subSet(3,false,6,true));
     }
+
+    static void checkComparator(){
+        TreeSet<String> treeSet = new TreeSet<>(new MyComp<>().reversed());
+        treeSet.add("C");
+        treeSet.add("A");
+        treeSet.add("B");
+        treeSet.add("D");
+        treeSet.add("F");
+        treeSet.add("E");
+        System.out.println(treeSet);
+        treeSet = new TreeSet<>((v1,v2) -> v2.compareTo(v1));
+        treeSet.add("C");
+        treeSet.add("A");
+        treeSet.add("B");
+        treeSet.add("D");
+        treeSet.add("F");
+        treeSet.add("E");
+        System.out.println(treeSet);
+    }
 }

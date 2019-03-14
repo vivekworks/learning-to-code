@@ -10,7 +10,12 @@ public class CollectionMain {
         //PriorityQueueDemo.check();
         //ArrayDequeDemo.check();
         //IteratorDemo.check();
-        SpliteratorDemo.check();
-        LinkedListDemo.addressCheck();
+        //SpliteratorDemo.check();
+        //LinkedListDemo.addressCheck();
+        //HashMapDemo.check();
+        //TreeMapDemo.check();
+        //LinkedHashMapDemo.check();
+        //EnumMapDemo.check();
+        TreeSetDemo.checkComparator();
     }
 }
