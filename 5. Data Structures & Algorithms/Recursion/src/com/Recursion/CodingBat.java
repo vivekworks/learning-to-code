@@ -7,6 +7,8 @@ public class CodingBat {
         System.out.println(bunnyEars(0));
         System.out.println(fibonacci(5));
         System.out.println(bunnyEars2(5));
+        System.out.println(triangle(5));
+        System.out.println(sumDigits(895));
     }
 
     @legend(createdDate = "14/03/2019", author = "Vivek", context = "Factorial of a number", returnValue = "int")
@@ -32,5 +34,17 @@ public class CodingBat {
     static int bunnyEars2(int bunnies){
         if(bunnies==0) return 0;
         return (bunnies%2 == 1 ? 2 : 3)+bunnyEars2(bunnies-1);
+    }
+
+    @legend(createdDate = "14/03/2019",author = "Vivek",context = "Triangle",returnValue = "int")
+    static int triangle(int rows) {
+        if(rows <=0) return 0;
+        return rows+triangle(rows-1);
+    }
+
+    @legend(createdDate = "14/03/2019",author = "Vivek",context = "Sum of Digits",returnValue = "int")
+    static int sumDigits(int n) {
+        if(n<=0) return 0;
+        return n%10+sumDigits(n/10);
     }
 }
