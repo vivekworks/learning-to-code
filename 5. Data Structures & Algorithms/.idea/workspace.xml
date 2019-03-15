@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/Algorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/ArraysDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/CompareFirstName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/CompareLastName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/HashTableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/PropertiesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/StackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/TComp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/collections/VectorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/collections/CollectionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/collections/CollectionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/collections/TreeMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/collections/TreeMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/collections/CollectionMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/collections/CollectionMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/collections/TreeMapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/collections/TreeMapDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/com/Recursion/CodingBat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/src/com/Recursion/CodingBat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +14,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Recursion/src/com/Recursion/CodingBat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="157" column="39" lean-forward="true" selection-start-line="157" selection-start-column="39" selection-end-line="157" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,7 +90,6 @@
         <option value="$PROJECT_DIR$/Basics/src/com/collections/TreeSetDemo.java" />
         <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/Practices.java" />
         <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/Legend.java" />
-        <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/CodingBat.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/TComp.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/CompareLastName.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/CompareFirstName.java" />
@@ -105,6 +103,7 @@
         <option value="$PROJECT_DIR$/Basics/src/com/collections/DictionaryDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/CollectionMain.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/PropertiesDemo.java" />
+        <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/CodingBat.java" />
       </list>
     </option>
   </component>
@@ -122,39 +121,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -178,6 +150,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -206,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionMain">
+  <component name="RunManager" selected="Application.CodingBat">
     <configuration name="ArrayStructures" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -677,8 +650,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -695,7 +669,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.12242687" />
-      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.27056277" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.26977247" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -963,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recursion/src/com/Recursion/CodingBat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -984,31 +951,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="1836" selection-start-line="1836" selection-end-line="1836" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/TComp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/CompareFirstName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/TComp.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/CompareFirstName.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/TreeSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1016,13 +960,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/CompareLastName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="103" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/CompareLastName.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1040,47 +978,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/Algorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/ArraysDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/HashTableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/PropertiesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/Algorithms.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/ArraysDemo.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/HashTableDemo.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/PropertiesDemo.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/CollectionMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1088,20 +989,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/StackDemo.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/StackDemo.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/VectorDemo.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="215">
+          <caret line="1836" selection-start-line="1836" selection-end-line="1836" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/VectorDemo.java">
+    <entry file="file://$PROJECT_DIR$/Recursion/src/com/Recursion/CodingBat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="416">
+          <caret line="157" column="39" lean-forward="true" selection-start-line="157" selection-start-column="39" selection-end-line="157" selection-end-column="39" />
         </state>
       </provider>
     </entry>
