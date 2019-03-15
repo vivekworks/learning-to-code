@@ -16,6 +16,15 @@ public class CollectionMain {
         //TreeMapDemo.check();
         //LinkedHashMapDemo.check();
         //EnumMapDemo.check();
-        TreeSetDemo.checkComparator();
+        //TreeSetDemo.checkComparator();
+        //TreeMapDemo.doubleCheck();
+        //TreeMapDemo.tripleCheck();
+        //TreeMapDemo.lambdaCheck();
+        //Algorithms.check();
+        //ArraysDemo.check();
+        //VectorDemo.check();
+        //StackDemo.check();
+        //HashTableDemo.check();
+        PropertiesDemo.check();
     }
 }
