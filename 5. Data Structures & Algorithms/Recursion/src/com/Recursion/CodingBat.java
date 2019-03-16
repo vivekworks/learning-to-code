@@ -1,6 +1,5 @@
 package com.Recursion;
 
-import java.util.stream.StreamSupport;
 
 public class CodingBat {
 
@@ -30,7 +29,14 @@ public class CodingBat {
         //System.out.println(endX("xhaxhix"));
         //System.out.println(countPairs("xAxAxo"));
         //System.out.println(countAbc("abcxxabc"));
-        System.out.println(count11("abc11x11x11"));
+        //System.out.println(count11("abc11x11x11"));
+        //System.out.println(stringClean("yyzzza"));
+        //System.out.println(countHi2("hihihix"));
+        //System.out.println(parenBit("234e(xy)1"));
+        //System.out.println(nestParen("a((()))b"));
+        //System.out.println(strCount("catcowcat", "dog"));
+        //System.out.println(strCopies("catcowcat", "cow", 1));
+        System.out.println(strDist("hiHellohihihi", "o"));
     }
 
     @legend(createdDate = "14/03/2019", author = "Vivek", context = "Factorial of a number", returnValue = "int")
@@ -173,5 +179,52 @@ public class CodingBat {
     static int count11(String str) {
         if (str.length() < 2) return 0;
         return (str.charAt(0) + "" + str.charAt(1)).equals("11") ? 1 + count11(str.substring(2)) : count11(str.substring(1));
+    }
+
+    @legend(createdDate = "16/03/2019", author = "Vivek", context = "String clean by removing duplicate characters", returnValue = "String")
+    static String stringClean(String str) {
+        if (str.length() < 2) return str;
+        return str.charAt(0) == str.charAt(1) ? stringClean(str.substring(1)) : str.charAt(0) + "" + stringClean(str.substring(1));
+    }
+
+    @legend(createdDate = "16/03/2019", author = "Vivek", context = "Count hi in the string", returnValue = "int")
+    static int countHi2(String str) {
+        if (str.length() < 3) return str.equals("hi") ? 1 : 0;
+        return (str.substring(str.length() - 2).equals("hi") && (str.charAt(str.length() - 3) != 'x') ? 1 : 0) + countHi2(str.substring(0, str.length() - 1));
+    }
+
+    @legend(createdDate = "16/03/2019", author = "Vivek", context = "Parent bit from the string by taking the value", returnValue = "String")
+    static String parenBit(String str) {
+        if (str.length() <= 0) return "";
+        return str.charAt(0) == '(' && str.charAt(str.length() - 1) == ')' ? str : parenBit(str.substring((str.charAt(0) == '(' ? 0 : 1), (str.charAt(str.length() - 1) == ')' ? str.length() : str.length() - 1)));
+    }
+
+    @legend(createdDate = "16/03/2019", author = "Vivek", context = "Nesting of parenthesis", returnValue = "boolean")
+    static boolean nestParen(String str) {
+        if (str.length() <= 0) return true;
+        return str.charAt(0) == '(' && str.charAt(str.length() - 1) == ')' ? nestParen(str.substring(1, str.length() - 1)) : false;
+    }
+
+    @legend(createdDate = "16/03/2019", author = "Vivek", context = "Count the appearance of substring in a string without overlapping", returnValue = "int")
+    static int strCount(String str, String sub) {
+        if (str.length() < sub.length()) return 0;
+        return (str.substring(0, sub.length()).equals(sub) ? 1 + strCount(str.substring(sub.length()), sub) : strCount(str.substring(1), sub));
+    }
+
+    @legend(createdDate = "16/03/2019", author = "Vivek", context = "String count", returnValue = "boolean")
+    static boolean strCopies(String str, String sub, int n) {
+        if (str.length() < sub.length())
+            if (n == 0) return true;
+            else return false;
+        return strCopies(str.substring(1), sub, n - (str.substring(0, sub.length()).equals(sub) ? 1 : 0));
+    }
+
+    @legend(createdDate = "16/03/2019", author = "Vivek", context = "Length of largest substring", returnValue = "int")
+    static int strDist(String str, String sub) {
+        if (str.length() < sub.length()) return 0;
+        if (str.substring(0, sub.length()).equals(sub) && str.substring(str.length() - sub.length()).equals(sub)) {
+            return str.length();
+        }
+        return str.substring(0, sub.length()).equals(sub) && !(str.substring(str.length() - sub.length()).equals(sub)) ? strDist(str.substring(0, str.length() - 1), sub) : strDist(str.substring(1), sub);
     }
 }
