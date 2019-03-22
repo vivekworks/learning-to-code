@@ -78,6 +78,7 @@ public class MouseEventDemo extends Frame implements MouseListener, MouseMotionL
 
     @Override
     public void paint(Graphics g) {
+        super.paint(g);
         g.drawString(message, mouseX, mouseY);
     }
 }
