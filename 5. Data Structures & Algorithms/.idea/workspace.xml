@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/awt/FontMetricsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/awt/FontsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/awt/GraphicsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/awt/InsetsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/awt/ComponentsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/eventhandling/MouseEventDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/eventhandling/MouseEventDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/eventhandling/MouseEventDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/eventhandling/MouseEventDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/Spliterator.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/SpliteratorDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/Address.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/HashMapDemo.java" />
@@ -97,8 +92,9 @@
         <option value="$PROJECT_DIR$/Basics/src/com/awt/GraphicsDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/awt/InsetsDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/awt/FontsDemo.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/awt/FontMetricsDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/awt/ComponentsDemo.java" />
       </list>
     </option>
   </component>
@@ -116,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,15 +119,42 @@
               <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5. Data Structures &amp; Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. Data Structures &amp; Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="awt" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553258534344" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553280508014" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -653,7 +675,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -670,7 +692,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.122294374" />
-      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.26868907" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.26839826" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -729,14 +751,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/HashMapDemo.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/LinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/LinkedHashMapDemo.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/EnumMapDemo.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/Gods.java" />
@@ -964,10 +978,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLists/src/com/LinkedLists/TheLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/ComponentsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#630#784#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#6381#6382#0" expanded="true" />
+            <element signature="e#6432#6433#0" expanded="true" />
+            <element signature="e#6505#6506#0" expanded="true" />
+            <element signature="e#6557#6558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>

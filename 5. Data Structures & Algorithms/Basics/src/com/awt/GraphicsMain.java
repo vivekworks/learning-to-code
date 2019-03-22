@@ -7,6 +7,7 @@ public class GraphicsMain {
         //GraphicsDemo.launch();
         //InsetsDemo.launch();
         //FontsDemo.launch();
-        FontMetricsDemo.launch();
+        //FontMetricsDemo.launch();
+        ComponentsDemo.launch();
     }
 }
