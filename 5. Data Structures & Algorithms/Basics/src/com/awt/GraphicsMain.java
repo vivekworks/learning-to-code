@@ -8,6 +8,8 @@ public class GraphicsMain {
         //InsetsDemo.launch();
         //FontsDemo.launch();
         //FontMetricsDemo.launch();
-        ComponentsDemo.launch();
+        //ComponentsDemo.launch();
+        //LayoutManagersDemo.launch();
+        MenusDemo.launch();
     }
 }
