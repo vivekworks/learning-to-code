@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/awt/LayoutManagersDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/awt/MenusDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/FileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/FileDirectoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/JavaIOMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/awt/GraphicsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/awt/GraphicsMain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,13 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/HashMapDemo.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/LinkedListDemo.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/LinkedHashMapDemo.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/Gods.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/EnumMapDemo.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/MyComp.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/TreeSetDemo.java" />
         <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/Practices.java" />
         <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/Legend.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/TComp.java" />
@@ -98,6 +93,13 @@
         <option value="$PROJECT_DIR$/Basics/src/com/awt/LayoutManagersDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/awt/MenusDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/javaio/file.txt" />
+        <option value="$PROJECT_DIR$/Basics/src/com/javaio/FileDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/javaio/File.txt" />
+        <option value="$PROJECT_DIR$/Basics/src/com/javaio/FileDirectoryDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/javaio/InputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/javaio/JavaIOMain.java" />
       </list>
     </option>
   </component>
@@ -115,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -148,16 +149,17 @@
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="awt" type="462c0819:PsiDirectoryNode" />
+              <item name="javaio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553369047064" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553524807875" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -182,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GraphicsMain">
+  <component name="RunManager" selected="Application.JavaIOMain">
     <configuration name="ArrayStructures" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -269,6 +271,13 @@
     </configuration>
     <configuration name="IOOperation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.io.ConsoleInputMain" />
+      <module name="Basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaIOMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.javaio.JavaIOMain" />
       <module name="Basics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -483,6 +492,7 @@
       <item itemvalue="Application.UtilMain" />
       <item itemvalue="Application.EventMain" />
       <item itemvalue="Application.GraphicsMain" />
+      <item itemvalue="Application.JavaIOMain" />
       <item itemvalue="Application.LangMain" />
       <item itemvalue="Application.MainProgram" />
       <item itemvalue="Application.TheBinaryTree" />
@@ -678,7 +688,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -686,7 +696,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -695,7 +705,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.122294374" />
-      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.267316" />
+      <window_info anchor="bottom" x="164" y="323" width="1876" height="221" id="Run" order="10" sideWeight="0.4989339" weight="0.2654388" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -754,47 +764,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Recursion/src/com/Recursion/Legend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/topics/Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recursion/src/com/Recursion/Practices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/TComp.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/CompareFirstName.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/TreeSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/CompareLastName.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/TreeMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -984,23 +953,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/ComponentsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#630#784#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#6381#6382#0" expanded="true" />
-            <element signature="e#6432#6433#0" expanded="true" />
-            <element signature="e#6505#6506#0" expanded="true" />
-            <element signature="e#6557#6558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/ComponentsDemo.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/java/awt/GridLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1012,21 +965,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/LayoutManagersDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#598#752#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#3037#3190#0" expanded="true" />
-            <element signature="e#3189#3190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/LayoutManagersDemo.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/GraphicsMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1041,19 +980,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/MenusDemo.java">
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/awt/MenusDemo.java" />
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#371#533#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#2667#2849#0" expanded="true" />
-            <element signature="e#2848#2849#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/FileDirectoryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/File1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/File.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/combo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/serial.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="168" column="36" lean-forward="true" selection-start-line="168" selection-start-column="36" selection-end-line="168" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/JavaIOMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>
