@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c24be7-9f40-45b0-ac93-3a871415aa72" name="Default Changelist" comment="Basics revision">
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/FileDirectoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/JavaIOMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/src/com/javaio/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/networking/HttpURLConnectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/networking/InetAddressDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/networking/NetworkingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/networking/SocketDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/networking/URLConnectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/src/com/networking/URLDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/src/com/javaio/JavaIOMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/com/javaio/JavaIOMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/javaio/IODemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/javaio/IODemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/javaio/JavaIOMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/javaio/JavaIOMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basics/com/javaio/serial.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/com/javaio/serial.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,12 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/Practices.java" />
-        <option value="$PROJECT_DIR$/Recursion/src/com/Recursion/Legend.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/TComp.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/CompareLastName.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/CompareFirstName.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/collections/TreeMapDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/Algorithms.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/ArraysDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/collections/VectorDemo.java" />
@@ -98,8 +97,14 @@
         <option value="$PROJECT_DIR$/Basics/src/com/javaio/File.txt" />
         <option value="$PROJECT_DIR$/Basics/src/com/javaio/FileDirectoryDemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/javaio/InputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java" />
         <option value="$PROJECT_DIR$/Basics/src/com/javaio/JavaIOMain.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/networking/SocketDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/networking/URLDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/networking/InetAddressDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/networking/URLConnectionDemo.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/networking/NetworkingMain.java" />
+        <option value="$PROJECT_DIR$/Basics/src/com/networking/HttpURLConnectionDemo.java" />
       </list>
     </option>
   </component>
@@ -118,6 +123,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,17 +155,16 @@
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="javaio" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553524807875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553607058648" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -184,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaIOMain">
+  <component name="RunManager" selected="Application.NetworkingMain">
     <configuration name="ArrayStructures" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -299,6 +304,13 @@
     </configuration>
     <configuration name="MainProgram" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.topics.MainProgram" />
+      <module name="Basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkingMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.networking.NetworkingMain" />
       <module name="Basics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -493,6 +505,7 @@
       <item itemvalue="Application.EventMain" />
       <item itemvalue="Application.GraphicsMain" />
       <item itemvalue="Application.JavaIOMain" />
+      <item itemvalue="Application.NetworkingMain" />
       <item itemvalue="Application.LangMain" />
       <item itemvalue="Application.MainProgram" />
       <item itemvalue="Application.TheBinaryTree" />
@@ -688,7 +701,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -764,27 +777,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Basics revision" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/TreeMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/Algorithms.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/ArraysDemo.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/HashTableDemo.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/PropertiesDemo.java" />
-    <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/CollectionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/StackDemo.java" />
     <entry file="file://$PROJECT_DIR$/Basics/src/com/collections/VectorDemo.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
@@ -1019,15 +1011,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/IODemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="168" column="36" lean-forward="true" selection-start-line="168" selection-start-column="36" selection-end-line="168" selection-end-column="36" />
+        <state relative-caret-position="457">
+          <caret line="194" column="19" selection-start-line="194" selection-start-column="19" selection-end-line="194" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics/src/com/javaio/JavaIOMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/networking/URLDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/networking/InetAddressDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/networking/SocketDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/networking/URLConnectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="51" column="179" lean-forward="true" selection-start-line="51" selection-start-column="166" selection-end-line="51" selection-end-column="179" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/networking/HttpURLConnectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/src/com/networking/NetworkingMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

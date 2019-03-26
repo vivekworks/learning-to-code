@@ -18,6 +18,7 @@ public class IODemo implements Serializable{
         //checkPrintWriter();
         //checkPrintBufferedFileWriter();
         //checkObjectOutputStream();
+        checkConsole();
     }
 
     /**
@@ -182,5 +183,18 @@ public class IODemo implements Serializable{
         } catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    /**
+     * Console Class
+     */
+    public void checkConsole(){
+        Console c = System.console();
+        if(c == null) {
+            System.out.println("No console available");
+            return;
+        }
+        String s = c.readLine();
+        System.out.println(s);
     }
 }
