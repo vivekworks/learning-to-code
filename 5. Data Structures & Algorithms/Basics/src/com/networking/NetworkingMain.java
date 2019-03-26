@@ -9,6 +9,7 @@ public class NetworkingMain {
         //new SocketDemo();
         //new URLDemo();
         //new URLConnectionDemo();
-        new HttpURLConnectionDemo();
+        //new HttpURLConnectionDemo();
+        new DatagramDemo(1);
     }
 }
